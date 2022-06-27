@@ -1,0 +1,23 @@
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.849);
+
+  color: #FFF;
+  font-size: 1rem;
+  text-align: center;
+  font-family: fira code;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.logoFooter {
+    width: 9vw;
+    height: 9vh;
+  }
+
+div h2{
+  margin-right: 15vh;
+}
