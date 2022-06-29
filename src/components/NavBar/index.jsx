@@ -1,14 +1,10 @@
 import './style.css';
 import logo from '../../images_all/navBar/logo_jonas.png';
 import React from 'react';
-import { NavLink, useHistory, BrowserRouter as Router} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  const history = useHistory();
-
-  function redirect() {
-    history.push('/');
-  }
+  // const history = useHistory();
 
   return (
     <div className="NavBar">
@@ -21,12 +17,12 @@ function NavBar() {
               </div>
             </label>
             <ul class="container-link">
-            <Router>
+       
               <li><NavLink to={'/'} className='menu-link'>Home</NavLink></li>
               <li><NavLink to={'/About'} className='menu-link'>About me</NavLink></li>
               <li><NavLink to={'/Projects'} className='menu-link'>Projects</NavLink></li>
               <li><NavLink to={'/Contact'} className='menu-link'>Contact</NavLink></li>
-            </Router>
+
             </ul>
             <div className="logo-top">
               <img className="logo" src={logo} alt="Icon with my name"/>

@@ -10,7 +10,7 @@ function Home() {
         </div>
         <h1 className="wellcome typing-animation">
           <code className="lt-start">&lt;</code>
-            Wellcome to my Portfolio
+            Bem-vindo(a) ao meu Portfólio!
           <code className="lt-end">/&gt;</code>
         </h1>
       </div>
