@@ -10,31 +10,33 @@ function Home() {
         </div>
         <h1 className="wellcome typing-animation">
           <code className="lt-start">&lt;</code>
+            <h1 className="tag">h1</h1>
+          <code className="lt-end">&gt;</code>
             Bem-vindo(a) ao meu Portfólio!
-          <code className="lt-end">/&gt;</code>
+          <code className="lt-start">&lt;/</code>
+            <h1 className="tag">h1</h1>
+          <code className="lt-end">&gt;</code>
         </h1>
       </div>
       <div className="main">
         <div className="about">
           <h1 className="presents">
-            Hey-there! I'm Jonas Adelino Neto,
+            Ô-lá! Eu sou Jonas Adelino Neto,
           </h1>
           <p className="me">
-            I live in Curitiba, capital of Paraná, in south of Brazil. I'm not a technology award winner, I don't have years of experience and I haven't traveled the world meeting people and places, yet!
+            Moro em Curitiba, capital do Paraná, no sul do Brasil. Sou apaixonado por tecnologia e games e por isso estou entrando na área da programação, em busca de estabilidade e qualidade de  com algo que me traga paz. Então, descobri o mundo dos desenvolvedores e estou adorando descobrir como fazer mágica acontecer e decidi que é isso que quero fazer na minha vida.
           </p>
           <p className="me">
-            I'm in love for technology and games and I switched professions, looking for stability and quality of life. So, I found the world of developers and I'm loving discovering how to make magic happens and decided that this is what I want to do in my life.</p>
-          <p className="me">
-            I've been working hard 8-10 hours a day to learn how to develop Websites for 6 months now. I started with the basics, HTML5, CSS3, JavaScript and React, in the Front-end. In the Back-end, I'm applying JavaScript, with Node.js, SQL. Today, I already have a basic domain and a good understanding of these languages ​​to solve problems, as you can see on this site and in my GitHub projects.
+            Eu tenho trabalhado duro de 6 a 8 horas por dia para aprender a desenvolver sites desde de o inicio de 2021. Comecei com o básico, HTML5, CSS3, JavaScript e então venho aprimorando meus conhecimentos aplicando React.js, no Front-end. Ja no Back-end, estou aplicando JavaScript, com Node.js e suas principais dependências integrando PostgreSQL para incrementação de banco de dados no desenvolvimento de API REST. Hoje, já tenho um bom domínio dessas linguagens para resolver problemas, como você pode ver neste site e nos meus projetos do GitHub.
           </p>
           <p className="me">
-            In addition to the languages ​​mentioned above, I keep learning, practicing and developing to the fullest, to give my best when you hire me, in order to improve my knowledge and contribute to your company's strength.
+            Além das linguagens citadas acima, continuo aprendendo, praticando e me desenvolvendo ao máximo, a fim de aprimorar meus conhecimentos e contribuir para a força da sua empresa.
           </p>
           <p className="me">
-            If you want to chat, feel free to write me.
+            Se sinta livre para navegar pelo meu Portfólio e entrar em contato da maneira que preferir. 
           </p>
           <h2 className="presents-2">
-            Lets build something amazing together!
+            Vamos construir algo incrível juntos !?
           </h2>
         </div>
       </div>

@@ -27,7 +27,7 @@
 }
 
 .wellcome {
-  color: #2700ff;
+  color: #b0aab4;
   font-family: fira code;
   font-size: 2.5em;
   line-height: 1.4em;
@@ -36,6 +36,16 @@
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   white-space: nowrap;
   overflow: hidden;
+  display: flex;
+}
+
+.tag{
+  color: #c90064;
+  font-family: fira code;
+  font-size: 1em;
+  line-height: 1.4em;
+  width: max-content;
+  margin: 0;
 }
 
 .lt-start{
@@ -68,7 +78,7 @@
 }
 
 .main {
-  background-color: rgba(20, 20, 20, 0.849);
+  background-color: #f2f2f2;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -85,20 +95,23 @@
 .presents {
   padding: 0px 30px 20px 30px;
   margin-top: 15px;
-  font-family: fira code, sans-serif;
-  font-size: 2em;
-  color: #00d8ff;
+  font-family: 'Ibarra Real Nova';
+  font-weight: 700;
+  font-size: 40px;
+  color: #00ff87;
   text-align: center;
 }
 
 .me {
   text-align: justify;
-  line-height: 25px;
-  font-family: fira code;
-  font-size: 1.2em;
   font-weight: 400;
-  color: rgba(226, 231, 230, 0.769);
+  /* color: rgba(226, 231, 230, 0.769); */
   padding: 0px 25px 20px 25px;
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #33323D;
 }
 
 .presents-2 {
