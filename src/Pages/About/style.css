@@ -104,6 +104,24 @@
   text-transform: uppercase;
 }
 
+.button-text {
+  all: unset;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 148px;
+  height: 48px;
+  text-align: center;
+
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .button-pt:hover{
   background-color: #33323D;
   color: #fff;

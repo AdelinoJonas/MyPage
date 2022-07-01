@@ -18,10 +18,11 @@ function NavBar() {
             </label>
             <ul class="container-link">
        
-              <li><NavLink to={'/'} className='menu-link'>Home</NavLink></li>
-              <li><NavLink to={'/About'} className='menu-link'>About me</NavLink></li>
-              <li><NavLink to={'/Projects'} className='menu-link'>Projects</NavLink></li>
-              <li><NavLink to={'/Contact'} className='menu-link'>Contact</NavLink></li>
+              <li><NavLink to={'/'} className='menu-link'>Início</NavLink></li>
+              <li><NavLink to={'/about'} className='menu-link'>Sobre mim</NavLink></li>
+              <li><NavLink to={'/Knowledge'} className='menu-link'>Conhecimentos</NavLink></li>
+              <li><NavLink to={'/projects'} className='menu-link'>Projetos</NavLink></li>
+              <li><NavLink to={'/contact'} className='menu-link'>Contato</NavLink></li>
 
             </ul>
             <div className="logo-top">

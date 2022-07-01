@@ -1,6 +1,7 @@
 import './style.css';
 import perfil from '../../images_all/about/perfil.png';
 import cidade from '../../images_all/about/curitiba.jpg';
+import { NavLink } from "react-router-dom";
 
 
 function About() {
@@ -29,15 +30,19 @@ function About() {
         <img className="cwb" src={cidade} alt="Curitiba" />
       </div>
       <div className="boxPort">
+        <NavLink to={'/projects'} className="button-text">
           <button className="button-pt">
-              portfólio
+            portfólio
           </button>
+        </NavLink>
       </div>
       <div className="contact1">
-          <h1 className="meAbout size-box">Interessado em fazer projetos comigo?</h1>
-          <button className="button-pt">
+        <h1 className="meAbout size-box">Interessado em fazer projetos comigo?</h1>
+        <NavLink to={'/contact'} className="button-text">
+          	<button className="button-pt">
               contato
           </button>
+          </NavLink>
       </div>
     </div>
   );
