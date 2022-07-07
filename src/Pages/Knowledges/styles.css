@@ -1,5 +1,3 @@
-.containerFront{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.containerknowledges {
+   margin-top: 20vh;
 }

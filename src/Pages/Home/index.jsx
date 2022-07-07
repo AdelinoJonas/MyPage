@@ -24,10 +24,10 @@ function Home() {
             Ô-lá! Eu sou Jonas Adelino Neto,
           </h1>
           <p className="me">
-            Moro em Curitiba, capital do Paraná, no sul do Brasil. Sou apaixonado por tecnologia e games e por isso estou entrando na área da programação, em busca de estabilidade e qualidade de  com algo que me traga paz. Então, descobri o mundo dos desenvolvedores e estou adorando descobrir como fazer mágica acontecer e decidi que é isso que quero fazer na minha vida.
+            Moro em Curitiba, capital do Paraná, no sul do Brasil. Sou apaixonado por tecnologia e games e por isso estou entrando na área da programação, em busca de estabilidade e qualidade de vida com algo que me traga paz. Então migrei para o mundo dos desenvolvedores e estou adorando descobrir como fazer mágica acontecer e decidi que é isso que quero fazer na minha vida.
           </p>
           <p className="me">
-            Eu tenho trabalhado duro de 6 a 8 horas por dia para aprender a desenvolver sites desde de o inicio de 2021. Comecei com o básico, HTML5, CSS3, JavaScript e então venho aprimorando meus conhecimentos aplicando React.js, no Front-end. Ja no Back-end, estou aplicando JavaScript, com Node.js e suas principais dependências integrando PostgreSQL para incrementação de banco de dados no desenvolvimento de API REST. Hoje, já tenho um bom domínio dessas linguagens para resolver problemas, como você pode ver neste site e nos meus projetos do GitHub.
+            Eu tenho trabalhado duro praticando o desenvolvimento de sites desde de o inicio de 2021. Comecei com o básico, HTML5, CSS3, JavaScript e então venho aprimorando meus conhecimentos aplicando React.js, no Front-end. Ja no Back-end, aplicando JavaScript, com Node.js e suas principais dependências integrando PostgreSQL para implementação de banco de dados no desenvolvimento de API REST. Hoje, já tenho um bom domínio dessas linguagens para resolver problemas, como você pode ver neste site e nos meus projetos do GitHub.
           </p>
           <p className="me">
             Além das linguagens citadas acima, continuo aprendendo, praticando e me desenvolvendo ao máximo, a fim de aprimorar meus conhecimentos e contribuir para a força da sua empresa.

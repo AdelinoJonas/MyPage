@@ -4,7 +4,7 @@ import Home from '../Pages/Home';
 import Projects from '../Pages/Projects';
 import Contact from '../Pages/Contact';
 import About from '../Pages/About';
-// import Knowledge from '../Pages/Knowledge';
+import Knowledge from '../Pages/Knowledges';
 
 const Routes = () => {
 
@@ -13,7 +13,7 @@ const Routes = () => {
       <Route component={Home} path="/" exact />
       <Route component={About} path="/about" exact />
       <Route component={Projects} path="/projects" exact />
-      {/* <Route component={Knowledge} path="/knowledge" exact /> */}
+      <Route component={Knowledge} path="/knowledge" exact />
       <Route component={Contact} path="/contact" exact />
     </Switch>
   )

@@ -1,6 +1,7 @@
 import './style.css';
 import github from '../../images_all/contact/github-Black.svg';
 import linkedin from '../../images_all/contact/linkdin-black.svg';
+import {NavLink} from 'react-router-dom';
 
 function Contact() {
   return (
@@ -9,8 +10,12 @@ function Contact() {
         <section className='sectionContact'>
           <h1 className='title'>Entre em Contato</h1>
           <p>Eu adoraria escutar sobre seu trabalho atual e como eu poderia ajudar. Atualmente estou procurando por um cargo e aberto para várias oportunidades. Sou uma pessoa trabalhadora e positiva que sempre fará as tasks com um senso de propósito e atenção aos detalhes. Fique livre para checar meus perfis abaixo e entrar em contato utilizando o formulário.</p>
-          <img className='gitIcon' src={github} alt="github icon" />
-          <img className='linkIcon' src={linkedin} alt="linkdin icon" />
+          <a href="https://www.linkedin.com/in/jonas-adelino-168830179/" className='linkIcon'>
+            <img className='linkIcon' src={linkedin} alt="linkdin icon" />
+          </a>
+          <a href="https://github.com/AdelinoJonas" className='gitIcon'>
+            <img className='gitIcon' src={github} alt="github icon" />
+          </a>
         </section>
       </div>
       <div className='titleForm'>
