@@ -7,6 +7,8 @@ function FrontEnd() {
   <div className="containerknowledges">
     <h1 className="titleSkills">
       Skills
+
+      
     </h1>
   </div> 
   );
