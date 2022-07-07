@@ -1,43 +1,56 @@
 .icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-  
-    width: 100vw;
-    height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
 
-    background-color: rgba(0, 0, 0, 0.329);
+  width: 100vw;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.329);
+  position: relative;
+  overflow: hidden;
+}
+
+.image{
+  animation: image-animation 20s infinite linear;
+  position: relative;
+}
+@keyframes image-animation {
+  from {
+    right: -100vw;
   }
-  
-  .icons .html {
-    width: 12vw;
-    height: 15vh;
+  to {
+    right: 100%
   }
-  
-  .icons .css {
-    width: 12vw;
-    height: 15vh;
-  }
-  
-  .icons .js {
-    width: 12vw;
-    height: 15vh;
-  }
-  
-  .icons .node {
-    width: 18vw;
-    height: 13vh;
-  }
-  
-  .icons .react {
-    width: 15vw;
-    height: 15vh;
-    margin-right: 30px;
-    margin-left: 20px;
-  }
-  
-  .icons .sql {
-    width: 7vw;
-    height: 14vh;
-  }
+}
+
+.html {
+  width: 12vw;
+  height: 15vh;
+}
+
+.css {
+  width: 12vw;
+  height: 15vh;
+}
+
+.js {
+  width: 12vw;
+  height: 15vh;
+}
+
+.node {
+  width: 18vw;
+  height: 13vh;
+}
+
+.react {
+  width: 15vw;
+  height: 15vh;
+  margin-left: 100px;
+}
+
+.sql {
+  width: 7vw;
+  height: 14vh;
+}
