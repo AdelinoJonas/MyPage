@@ -1,32 +1,102 @@
 .containerknowledges {
    margin-top: 20vh;
+   display: flex;
+   justify-content: space-around;
 }
 
-.titleSkills {
-   width: 100%;
-   text-align: center;
+.titleSkill {
+   width: 47vw;
+   padding-bottom: 20px;
+   font-family: 'Ibarra Real Nova';
+   font-weight: 700;
+   font-size: 40px;
+   color: #33323D;
+   border-bottom: 1px solid #33323dd0;
+}
+
+.leftSide{
+   width: 50vw;
+   border-right: 3px solid #33323dd0;
+}
+.leftSide p {
+   width: 48vw;
+   text-align: justify;
+   font-weight: 400;
+   margin-top: 10px;
+   padding: 20px 25px 20px 25px;
+   font-family: 'Public Sans';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #33323D;
+}
+
+.nameSkill {
+   width: 20vw;
+   text-align: justify;
+   font-weight: 700;
+   padding: 0px 25px 20px 25px;
+   font-family: 'Public Sans';
+   font-size: 20px;
+   line-height: 30px;
+   color: #33323D;
+   justify-self: center;
+}
+
+.nameSkills {
+   width: 10vw;
+   text-align: justify;
+   font-weight: 700;
+   padding: 0px 25px 20px 25px;
+   font-family: 'Public Sans';
+   font-size: 20px;
+   line-height: 30px;
+   color: #33323D;
+   justify-self: center;
 }
 
 .hardSkills {
+   width: 45vw;
    display: flex;
    flex-direction: column;
+   padding-top: 20px;
 }
 
 .boxSkill {
-   width: 22vw;
    display: flex;
    justify-content: space-between;
-   align-items: center;
-   
+}
+
+.languages{
+   width: 45vw;
 }
 
 .boxLevel {
-   width: 120px;
+   width: 30vw;
    height: 8px;
    border-radius: 50px;
    border: 1px solid blue;
-   /* display: flex;
-   justify-content: start; */
+}
+
+.boxLevelSkills {
+   width: 38vw;
+   height: 8px;
+   border-radius: 50px;
+   border: 1px solid blue;
+}
+
+.sizeLevel{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 5px;
+}
+
+.sizeLevel span{
+   font-family: 'Public Sans';
+   font-size: 1rem;
+   line-height: 30px;
+   color: #33323D;
 }
 
 .levelbar1 {
@@ -37,21 +107,21 @@
 }
 
 .levelbar2 {
-   width: 80%;
+   width: 70%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .levelbar3 {
-   width: 45%;
+   width: 50%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .levelbar4 {
-   width: 45%;
+   width: 40%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
@@ -65,28 +135,50 @@
 }
 
 .levelbar6 {
-   width: 70%;
+   width: 55%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .levelbar7 {
-   width: 35%;
+   width: 25%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .boxlanguage {
-   width: 40vw;
-   display: flex;
+   width: 48vw;
+   height: 35vh;
    justify-content: space-between;
    align-items: center;
+   padding-bottom: 50px;
+   margin-bottom: 10px 20px 20px 25px;
+   display: flex;
+   border-bottom: 1px solid #33323dd0;
 }
 
 .containerLevel {
-   width: 30vw;
+   width: 35vw;
+   height: 20vh;
    display: flex;
    flex-direction: column;
+   justify-content: space-around;
+}
+
+.nametitle{
+   margin: 25px 0 5px 0;
+   font-family: 'Public Sans';
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #33323D;
+}
+
+.speakbar1{
+   width: 80%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
 }

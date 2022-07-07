@@ -5,150 +5,226 @@ function FrontEnd() {
 
   return (
   <div className="containerknowledges">
-    <h1 className="title">
-      HardSkills
-    </h1>
+    
     <div className="leftSide">
-      <p className="me">
-      Aqui estão meus principais conhecimentos na área de desenvolvimento:
+      <h1 className="titleSkill">
+        HardSkills
+      </h1>
+      <p>
+        Aqui estão meus principais conhecimentos na área de desenvolvimento:
       </p> 
       <section className="hardSkills">
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             HTML5
           </span>
-          <section className="boxLevel"><section className="levelbar1"></section></section>
-          
+          <section className="boxLevelSkills"><section className="levelbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>          
         </section>
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             CSS3
           </span>
-          <section className="boxLevel"><section className="levelbar2"></section></section>
-          
+          <section className="boxLevelSkills"><section className="levelbar2"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
         </section>
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             JAVASCRIPT
           </span>
-          <section className="boxLevel"><section className="levelbar3"></section></section>
-          
+          <section className="boxLevelSkills"><section className="levelbar3"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
         </section>
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             NODE.JS
           </span>
-          <section className="boxLevel"><section className="levelbar4"></section></section>
-          
+          <section className="boxLevelSkills"><section className="levelbar4"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
         </section>
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             POSTGRESQL
           </span>
-          <section className="boxLevel"><section className="levelbar5"></section></section>
-          
+          <section className="boxLevelSkills"><section className="levelbar5"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>          
         </section>
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             REACT.JS
           </span>
-          <section className="boxLevel"><section className="levelbar6"></section></section>
-          
+          <section className="boxLevelSkills"><section className="levelbar6"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>        
         </section>
         <section className='boxSkill'>
-          <span className="titleSkill me">
+          <span className="nameSkill">
             SASS
           </span>
-          <section className="boxLevel"><section className="levelbar7"></section></section>
-          
-        </section>
-      </section>
-      <section className="languages">
-        <h1 className="title">
-          Idiomas
-        </h1>
-        <section className="boxlanguage">
-          <span className="titleSkill me">
-            Ingles
-          </span>
-          <section className="containerLevel">
-            <span className="nametitle description">
-              Speaking
-            </span>
-            <section className="boxLevel">
-              <section className="speakbar1"></section>
+          <section className="boxLevelSkills"><section className="levelbar7"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
             </section>
-            <span className="nametitle description">
-              Listening
-            </span>
-            <section className="boxLevel">
-              <section className="listenbar1"></section>
-            </section>
-            <span className="nametitle description">
-              write
-            </span>
-            <section className="boxLevel">
-              <section className="writebar1"></section>
-            </section>
-          </section>
-        </section>
-        <section className="boxlanguage">
-          <span className="titleSkill me">
-            Espanhol
-          </span>
-          <section className="containerLevel">
-            <span className="nametitle description">
-              Speaking
-            </span>
-            <section className="boxLevel">
-              <section className="speakbar1"></section>
-            </section>
-            <span className="nametitle description">
-              Listening
-            </span>
-            <section className="boxLevel">
-              <section className="listenbar1"></section>
-            </section>
-            <span className="nametitle description">
-              write
-            </span>
-            <section className="boxLevel">
-              <section className="writebar1"></section>
-            </section>
-          </section>
-        </section>
-        <section className="boxlanguage">
-          <span className="titleSkill me">
-            Português
-          </span>
-          <section className="containerLevel">
-            <span className="nametitle description">
-              Speaking
-            </span>
-            <section className="boxLevel">
-              <section className="speakbar1"></section>
-            </section>
-            <span className="nametitle description">
-              Listening
-            </span>
-            <section className="boxLevel">
-              <section className="listenbar1"></section>
-            </section>
-            <span className="nametitle description">
-              write
-            </span>
-            <section className="boxLevel">
-              <section className="writebar1"></section>
-            </section>
-          </section>
+          </section>          
         </section>
       </section>
     </div>
-    <aside className="rightSide">
-      <h1 className='title'>
-        SOFTSKILLS
+    <section className="languages">
+      <h1 className="titleSkill">
+        Idiomas
       </h1>
-    </aside>   
+      <section className="boxlanguage">
+        <span className="nameSkills">
+          Inglês
+        </span>
+        <section className="containerLevel">
+          <span className="nametitle">
+            Speaking
+          </span>
+          <section className="boxLevel">
+            <section className="speakbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+          <span className="nametitle">
+            Listening
+          </span>
+          <section className="boxLevel">
+            <section className="listenbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+          <span className="nametitle">
+            Write
+          </span>
+          <section className="boxLevel">
+            <section className="writebar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section className="boxlanguage">
+        <span className="nameSkills">
+          Espanhol
+        </span>
+        <section className="containerLevel">
+          <span className="nametitle">
+            Speaking
+          </span>
+          <section className="boxLevel">
+            <section className="speakbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+          <span className="nametitle">
+            Listening
+          </span>
+          <section className="boxLevel">
+            <section className="listenbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+          <span className="nametitle">
+            Write
+          </span>
+          <section className="boxLevel">
+            <section className="writebar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section className="boxlanguage">
+        <span className="nameSkills">
+          Português
+        </span>
+        <section className="containerLevel">
+          <span className="nametitle">
+            Speaking
+          </span>
+          <section className="boxLevel">
+            <section className="speakbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+          <span className="nametitle">
+            Listening
+          </span>
+          <section className="boxLevel">
+            <section className="listenbar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+          <span className="nametitle">
+            Write
+          </span>
+          <section className="boxLevel">
+            <section className="writebar1"></section>
+            <section className='sizeLevel'>
+              <span>Baixo</span>
+              <span>Médio</span>
+              <span>Avançado</span>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>  
   </div> 
   );
 }
