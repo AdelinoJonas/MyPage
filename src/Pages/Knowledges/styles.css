@@ -1,3 +1,92 @@
 .containerknowledges {
    margin-top: 20vh;
 }
+
+.titleSkills {
+   width: 100%;
+   text-align: center;
+}
+
+.hardSkills {
+   display: flex;
+   flex-direction: column;
+}
+
+.boxSkill {
+   width: 22vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.boxLevel {
+   width: 120px;
+   height: 8px;
+   border-radius: 50px;
+   border: 1px solid blue;
+   /* display: flex;
+   justify-content: start; */
+}
+
+.levelbar1 {
+   width: 70%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.levelbar2 {
+   width: 80%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.levelbar3 {
+   width: 45%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.levelbar4 {
+   width: 45%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.levelbar5 {
+   width: 55%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.levelbar6 {
+   width: 70%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.levelbar7 {
+   width: 35%;
+   height: 6px;
+   background-color: blue;
+   border-radius: 50px;
+}
+
+.boxlanguage {
+   width: 40vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.containerLevel {
+   width: 30vw;
+   display: flex;
+   flex-direction: column;
+}
