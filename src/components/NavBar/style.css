@@ -26,22 +26,18 @@
   font-family: 'Ibarra Real Nova';
   font-weight: 700;
   font-size: 1.4rem;
-  color: rgba(226, 231, 230, 0.769);
+  color: #e2e7e6c4;
   cursor: pointer;
 }
 
-.menu-link:hover{
-  color: rgba(202, 185, 32, 0.769);
+.menu-link:hover {
+  color: #949797c4;
   font-weight: 700;
   font-size: 1.6rem;
 }
 
-.menu-link active{
-  color: rgba(54, 177, 23, 0.769);
+.logo {
+  height: 14vh;
+  display: flex;
+  align-items: center;
 }
-   
-  .logo {
-    height: 14vh;
-    display: flex;
-    align-items: center;
-  }

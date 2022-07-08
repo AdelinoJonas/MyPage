@@ -198,14 +198,14 @@
    border-radius: 50px;
 }
 
-.listenbar1{
+.listenbar1 {
    width: 80%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
-.writebar1{
+.writebar1 {
    width: 70%;
    height: 6px;
    background-color: blue;
@@ -219,7 +219,7 @@
    border-radius: 50px;
 }
 
-.listenbar2{
+.listenbar2 {
    width: 80%;
    height: 6px;
    background-color: blue;
@@ -227,7 +227,7 @@
 
 }
 
-.writebar2{
+.writebar2 {
    width: 20%;
    height: 6px;
    background-color: blue;
@@ -241,14 +241,14 @@
    border-radius: 50px;
 }
 
-.listenbar3{
+.listenbar3 {
    width: 100%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
-.writebar3{
+.writebar3 {
    width: 100%;
    height: 6px;
    background-color: blue;
@@ -350,4 +350,35 @@
    width: 70vw;
    display: flex;
    margin-left: 15vw;
+}
+
+.boxCertified{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.certified {
+   all: unset;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   cursor: pointer;
+   border: 1px solid #33323d;
+   width: 148px;
+   height: 48px;
+   text-align: center;
+
+   font-family: 'Public Sans';
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.certified:hover {
+   background-color: #33323D;
+   color: #fff;
 }

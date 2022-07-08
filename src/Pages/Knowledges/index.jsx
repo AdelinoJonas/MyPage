@@ -233,10 +233,12 @@ function FrontEnd() {
         <p>Aqui estão os cursos que participei e atividades pós cursos:</p>
         <div className="coursesList">
           <div className="list">
-            <b>TÉCNICO EM INFORMATICA:</b> Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, hardware de computadores.
-            <button className="certified">
-              VER CERTIFICADO
-            </button>
+            <b>TÉCNICO EM INFORMATICA:</b> Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, Redes e hardware de computadores.
+            <div className="boxCertified">
+              <button className="certified">
+                VER CERTIFICADO
+              </button>
+            </div>
           </div>
           <div className="imgcouse">
             <img src={certifiedtec} className='imgcourses' alt="Certificado Tecnico em Informática" />
@@ -248,17 +250,21 @@ function FrontEnd() {
           </div>
           <div className="list">
             <b>DESENVOLVIMENTO DE SOFTWARE - CUBOS ACADEMY:</b> HTML5, CSS3, JavaScript, NodeJs (express, npm, knex...), PostgresSQL, React.js, GIT e GITHUB. Desenvolvimento de SoftSkills  e metodologias ágeis como: Scrum, Kanban, Auto-conhecimento.
-            <button className="certified">
-              VER CERTIFICADO
-            </button>
+            <div className="boxCertified">
+              <button className="certified">
+                VER CERTIFICADO
+              </button>
+            </div>
           </div>
         </div>
         <div className="coursesList">
           <div className="list">
             <li><b>4º EDIÇÃO DO PROVIHACK:</b> Onde tive a oportunidade de trabalhar com uma equipe de tecnologia e desenvolver um projeto do zero para ajudar no combate ao aquecimento global utilizando a tecnologia.</li>
-            <button className="certified">
-              VER CERTIFICADO
-            </button>
+            <div className="boxCertified">
+              <button className="certified">
+                VER CERTIFICADO
+              </button>
+            </div>
           </div>
           <div className="imgcouse">
             <img src={certifiedProvi} className='imgcourses' alt="Certificado Hackaton" />
@@ -269,8 +275,12 @@ function FrontEnd() {
         <div className="list">
           <p>Além das habilidades citadas acima, também tenho conhecimentos em algumas áreas realcionadas a softSkills, como:</p>
           <ul className="skillsList">
-            <li>Metodologias Ágeis: Trabalhando com vercionamento de código utilizando GIT e GitHub;</li>
-            <li>Organização e controle do tempo: Utilizando o método SCRUM e conhecimento do método KABAN;</li>
+            <li>
+              Metodologias Ágeis: Trabalhando com vercionamento de código utilizando GIT e GitHub;
+            </li>
+            <li>
+              Organização e controle do tempo: Utilizando o método SCRUM e conhecimento do método KABAN
+            </li>
           </ul>
         </div>
       </div>

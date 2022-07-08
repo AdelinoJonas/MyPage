@@ -10,11 +10,11 @@ const Routes = () => {
 
   return(
     <Switch>
-      <Route component={Home} path="/" exact />
-      <Route component={About} path="/about" exact />
-      <Route component={Projects} path="/projects" exact />
-      <Route component={Knowledge} path="/knowledge" exact />
-      <Route component={Contact} path="/contact" exact />
+      <Route component={Home} path="/" exact/>
+      <Route component={About} path="/about" exact/>
+      <Route component={Projects} path="/projects" exact/>
+      <Route component={Knowledge} path="/knowledge" exact/>
+      <Route component={Contact} path="/contact" exact/>
     </Switch>
   )
 }
