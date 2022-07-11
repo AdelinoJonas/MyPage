@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <div className="NavBar">
       <nav className="nav">
-        <ul class="container-link">
+        <ul className="container-link">
           <li>
             <NavLink 
               to={'/'} 

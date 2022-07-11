@@ -1,30 +1,83 @@
 import './style.css';
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Front from '../../components/FrontEnd';
 import Back from '../../components/BackEnd';
+// import UserContext from '../../contexts/userContext';
+import prev from '../../images_all/projects/prev.png';
+import next from '../../images_all/projects/next.png';
+
 
 function Projects() {
 
-  // const handleClick = (direction) => {
+  const [currentStack, setCurrentStack] = useState({
+    name: 'FRONT-END'
+  });
 
-  // };
+  const stacks = [
+    {
+      name: 'FRONT-END'
+    },
+    {
+      name: 'BACK-END'
+    }];
+
+  function nextStack(currentStack) {
+    const stackList = stacks.map((item) => item.name);
+
+    const positionCurrentStack = stackList.indexOf(currentStack.name);
+
+    const positionNextStack = stackList.indexOf(currentStack.name) + 1;
+
+    const next = stackList[positionNextStack];
+
+    const nextObject = stacks.filter((item) =>  {
+      const stackPosition = item.name.indexOf(next) + 1;
+      return stackPosition;
+    });
+
+    const lastItemInArray = stacks.length === positionCurrentStack + 1;
+
+    if (lastItemInArray){
+      setCurrentStack(stacks[0]);
+    } else {
+      setCurrentStack(nextObject[0]);
+    }
+  };
+
+  function prevStack(currentStack) {
+    const stackList = stacks.map((item) => item.name);
+
+    const positionCurrentStack = stackList.indexOf(currentStack.name);
+
+    const positionNextStack = stackList.indexOf(currentStack.name) + 1;
+
+    const next = stackList[positionNextStack];
+
+    const nextObject = stacks.filter((item) =>  {
+      const stackPosition = item.name.indexOf(next) + 1;
+      return stackPosition;
+    });
+
+    const lastItemInArray = stacks.length === positionCurrentStack + 1;
+
+    if (lastItemInArray){
+      setCurrentStack(stacks[0]);
+    } else {
+      setCurrentStack(nextObject[0]);
+    }
+  };
+
 
   return (
     <div className="containerProject">
       <section className='lineRow'>
-        <Carousel showStatus="none">
-          <div>
-          <h1 className='titleProjects'>FRONT-END</h1>
-          </div>
-          <div>
-          <h1 className='titleProjects'>BACK-END</h1>
-          </div>
-        </Carousel>
+        <img src={prev} alt="arrow left" onClick={() => prevStack(currentStack)}/>
+          <h1>{currentStack.name}</h1>
+        <img src={next} alt="arrow right" onClick={() => nextStack(currentStack)}/>
       </section>
-      <Front/>
-      <Back/>
+      { currentStack === 1 ? <Front/> : <Back/>}
     </div>
   );
 }
