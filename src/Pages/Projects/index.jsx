@@ -1,27 +1,25 @@
 import "./style.css";
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 import Front from "../../components/FrontEnd";
 import Back from "../../components/BackEnd";
-// import UserContext from '../../contexts/userContext';
 import prev from "../../images_all/projects/prev.png";
 import next from "../../images_all/projects/next.png";
 
 function Projects() {
   const [currentStack, setCurrentStack] = useState({
     name: "FRONT-END",
-    stack: <Front />
+    stack: <Front />,
   });
 
   const stacks = [
     {
       name: "FRONT-END",
-      stack: <Front />
+      stack: <Front />,
     },
     {
       name: "BACK-END",
-      stack: <Back />
+      stack: <Back />,
     },
   ];
 
@@ -77,17 +75,18 @@ function Projects() {
         <img
           src={prev}
           alt="arrow left"
+          className="arrows"
           onClick={() => prevStack(currentStack)}
         />
-        <h1>{currentStack.name}</h1>
-        {currentStack.stack}
+          <h1 className="titleProjects">{currentStack.name}</h1>
         <img
           src={next}
           alt="arrow right"
+          className="arrows"
           onClick={() => nextStack(currentStack)}
         />
       </section>
-      {/* {currentStack === 1 ? <Front /> : <Back />} */}
+        {currentStack.stack}
     </div>
   );
 }

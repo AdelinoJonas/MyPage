@@ -1,6 +1,6 @@
 import './style.css';
 import { NavLink } from "react-router-dom";
-import project1 from '../../images_all/projects/toDoList.png';
+import sisbank from '../../images_all/projects/modulo2_back.jpg';
 import project2 from '../../images_all/projects/dindin.png';
 import project4 from '../../images_all/projects/SistemaCobranca.png';
 
@@ -10,7 +10,7 @@ function FrontEnd() {
   <div className="containerFront">
     <div className="boxProject">
       <div className="picture">
-        <img className='image' src={project1} alt="To do list" />
+        <img className='image' src={sisbank} alt="To do list" />
       </div>
       <div className="description">
         <h1>SISTEMA BANCÁRIO</h1>

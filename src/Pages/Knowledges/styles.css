@@ -352,7 +352,7 @@
    margin-left: 15vw;
 }
 
-.boxCertified{
+.boxCertified {
    width: 100%;
    display: flex;
    justify-content: center;
@@ -381,4 +381,19 @@
 .certified:hover {
    background-color: #33323D;
    color: #fff;
+}
+
+.levelKnow {
+   animation: image-animation 20s ;
+   position: relative;
+}
+
+@keyframes image-animation {
+   from {
+      right: 0%;
+   }
+
+   to {
+      right: 100%
+   }
 }

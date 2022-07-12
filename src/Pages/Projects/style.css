@@ -12,6 +12,10 @@
     font-weight: 700;
     font-size: 40px;
     color: #33323D;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lineRow {
@@ -27,6 +31,7 @@
 .arrows {
     opacity: 0.7;
     cursor: pointer;
+    width: 30px;
 }
 
 .boxProject {

@@ -22,7 +22,7 @@ function NavBar() {
             <NavLink 
               to={'/About'} 
               className='menu-link'
-              activeStyle={{ color: '#cab920c4' }}
+              activeStyle={{ color: '#FF8700' }}
               >
               Sobre mim
             </NavLink>
@@ -31,7 +31,7 @@ function NavBar() {
             <NavLink 
               to={'/Knowledge'} 
               className='menu-link'
-              activeStyle={{ color: '#cab920c4' }}
+              activeStyle={{ color: '#FF8700' }}
               >
               Conhecimentos
             </NavLink>
@@ -40,7 +40,7 @@ function NavBar() {
             <NavLink 
               to={'/projects'} 
               className='menu-link'
-              activeStyle={{ color: '#cab920c4' }}
+              activeStyle={{ color: '#FF8700' }}
               >
               Projetos
             </NavLink>
@@ -49,7 +49,7 @@ function NavBar() {
             <NavLink 
               to={'/contact'} 
               className='menu-link'
-              activeStyle={{ color: '#cab920c4' }}
+              activeStyle={{ color: '#FF8700' }}
               >
               Contato
             </NavLink>

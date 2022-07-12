@@ -8,7 +8,7 @@ function BaseFooter() {
     <footer className="footer">
       <img className='logoFooter' src={logo} alt='logo' />
       <div className="nav-icons">
-        <h2 >Jonas Adelino Neto &#169; &#174;</h2>
+        <h2 >Jonas Adelino Neto &#169; &#174; 2022</h2>
       </div>
     </footer>
   </div> 
