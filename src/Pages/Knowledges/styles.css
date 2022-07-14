@@ -192,35 +192,35 @@
 }
 
 .speakbar1 {
-   width: 70%;
+   width: 60%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .listenbar1 {
-   width: 80%;
+   width: 65%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .writebar1 {
-   width: 70%;
+   width: 60%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .speakbar2 {
-   width: 40%;
+   width: 35%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
 }
 
 .listenbar2 {
-   width: 80%;
+   width: 55%;
    height: 6px;
    background-color: blue;
    border-radius: 50px;
