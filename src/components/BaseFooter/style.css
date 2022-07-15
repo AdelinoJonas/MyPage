@@ -1,5 +1,5 @@
 footer {
-  width: 100%;
+  width: 100vw;
   height: 15vh;
   background-color: rgba(0, 0, 0, 0.849);
 
@@ -18,5 +18,10 @@ footer {
   }
 
 div h2{
-  margin-right: 15vh;
+  margin-right: 2rem;
+  text-align: end;
+  font-family: 'Ibarra Real Nova';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #e2e7e6c4;
 }

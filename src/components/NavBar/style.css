@@ -204,7 +204,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-position: relative;
+    position: relative;
     border-radius: 10px;
     box-shadow: 0 0 0 0 rgba(65, 64, 64, 0.849), 0 0 0 0 rgba(65, 64, 64, 0.849);
     transition: box-shadow .43s cubic-bezier(.29, .5, .27, .5);
