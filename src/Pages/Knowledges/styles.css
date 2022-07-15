@@ -344,7 +344,7 @@
 }
 
 .imgcourses {
-   width: 45vw;
+   width: 40vw;
 }
 
 .skillsList {
@@ -382,19 +382,4 @@
 .certified:hover {
    background-color: #33323D;
    color: #fff;
-}
-
-.levelKnow {
-   animation: image-animation 20s ;
-   position: relative;
-}
-
-@keyframes image-animation {
-   from {
-      right: 0%;
-   }
-
-   to {
-      right: 100%
-   }
 }

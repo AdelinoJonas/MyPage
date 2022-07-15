@@ -233,7 +233,7 @@ function FrontEnd() {
         <p>Aqui estão os cursos que participei e atividades pós cursos:</p>
         <div className="coursesList">
           <div className="list">
-            <b>TÉCNICO EM INFORMATICA:</b> Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, Redes e hardware de computadores.
+          <li><b>TÉCNICO EM INFORMATICA:</b> Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, Redes e hardware de computadores.</li>
             <div className="boxCertified">
               <button className="certified">
                 VER CERTIFICADO
@@ -249,7 +249,7 @@ function FrontEnd() {
             <img src={certifiedCubos} className='imgcourses image' alt="Certificado Cubos Academy" />
           </div>
           <div className="list">
-            <b>DESENVOLVIMENTO DE SOFTWARE - CUBOS ACADEMY:</b> HTML5, CSS3, JavaScript, NodeJs (express, npm, knex...), PostgresSQL, React.js, GIT e GITHUB. Desenvolvimento de SoftSkills  e metodologias ágeis como: Scrum, Kanban, Auto-conhecimento.
+          <li><b>DESENVOLVIMENTO DE SOFTWARE - CUBOS ACADEMY:</b> HTML5, CSS3, JavaScript, NodeJs (express, npm, knex...), PostgresSQL, React.js, GIT e GITHUB. Desenvolvimento de SoftSkills  e metodologias ágeis como: Scrum, Kanban, Auto-conhecimento.</li>
             <div className="boxCertified">
               <button className="certified">
                 VER CERTIFICADO
@@ -259,7 +259,7 @@ function FrontEnd() {
         </div>
         <div className="coursesList">
           <div className="list">
-            <b>4º EDIÇÃO DO PROVIHACK:</b> Onde tive a oportunidade de trabalhar com uma equipe de tecnologia e desenvolver um projeto do zero para ajudar no combate ao aquecimento global utilizando a tecnologia.
+            <li><b>4º EDIÇÃO DO PROVIHACK:</b> Onde tive a oportunidade de trabalhar com uma equipe de tecnologia e desenvolver um projeto do zero para ajudar no combate ao aquecimento global utilizando a tecnologia.</li>
             <div className="boxCertified">
               <button className="certified">
                 VER CERTIFICADO
