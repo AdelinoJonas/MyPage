@@ -6,7 +6,7 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    width:100vw;
+    /* width:100vw; */
   }
 
   .intro_face {
@@ -26,7 +26,7 @@
   
   .face-photo {
     width: 24vw;
-    height: 50vh;
+    height: 53vh;
     border-radius: 50%;
     margin-top: 7rem;
     margin-bottom: 2rem;
@@ -48,7 +48,7 @@
   .tag{
     color: #c90064;
     font-family: fira code;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 5rem;
     width: max-content;
     margin: 0;
@@ -62,7 +62,7 @@
   }
   
   .typing-animation {
-    animation: blinkCursor 800ms steps(25) infinite normal, typing 4s steps(25) 1s normal both;
+    animation: blinkCursor 800ms steps(20) infinite normal, typing 4s steps(20) 1s normal both;
   }
   
   @keyframes typing {
@@ -70,7 +70,7 @@
         width: 0;
     }
     to {
-        width: 28rem;
+        width: 55rem;
     }
   }
   
@@ -85,7 +85,7 @@
   
   .main {
     background-color: #f2f2f2;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,11 +99,11 @@
   
   .presents {
     padding: 0px 30px 20px 30px;
-    margin-top: 15px;
+    margin-top: 5rem;
     font-family: 'Ibarra Real Nova';
     font-weight: 700;
-    font-size: 40px;
-    color: #00ff87;
+    font-size: 4rem;
+    color: #8700FF;
     text-align: center;
   }
   
@@ -114,8 +114,8 @@
     padding: 0px 25px 20px 25px;
     font-family: 'Public Sans';
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
     color: #33323D;
   }
   
@@ -123,7 +123,8 @@
     color: #00ff27;
     text-align: center;
     font-family: indie Flower;
-    font-size: 2em;
+    font-size: 4rem;
+    margin-bottom: 5rem;
   }
 
 @media (max-width: 1000px) {
@@ -131,8 +132,8 @@
     width: 30vw;
     height: 50vh;
     border-radius: 50%;
-    margin-top: 5em;
-    margin-bottom: 2em;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -171,14 +172,14 @@
     color: #b0aab4;
     font-family: fira code;
     font-size: 1.5rem;
-    /* line-height: 5rem; */
+    line-height: 5rem;
     text-align: center;
-    /* margin: 0px auto; */
+    margin: 0;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     white-space: nowrap;
     overflow: hidden;
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
   .tag{
     color: #c90064;

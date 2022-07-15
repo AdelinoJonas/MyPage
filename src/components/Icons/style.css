@@ -25,27 +25,27 @@
 }
 
 .html {
-  width: 12vw;
+  width: 20vw;
   height: 15vh;
 }
 
 .css {
-  width: 12vw;
+  width: 20vw;
   height: 15vh;
 }
 
 .js {
-  width: 12vw;
+  width: 20vw;
   height: 15vh;
 }
 
 .node {
-  width: 18vw;
-  height: 13vh;
+  width: 15vw;
+  height: 15vh;
 }
 
 .react {
-  width: 15vw;
+  width: 20vw;
   height: 15vh;
   margin-left: 80px;
 }
@@ -56,6 +56,39 @@
 }
 
 .sass {
+  width: 15vw;
   height: 15vh;
   margin-left: 80px;
+}
+
+@media (max-width: 600px) {
+
+  @keyframes image-animation {
+    from {
+      right: -150vw;
+    }
+    to {
+      right: 150%
+    }
+  }
+
+  .node {
+    width: 25vw;
+    height: 10vh;
+  }
+  
+  .react {
+    width: 23vw;
+    height: 15vh;
+  }
+  
+  .sql {
+    width: 10vw;
+    height: 15vh;
+  }
+  
+  .sass {
+    width: 20vw;
+    height: 15vh;
+  }
 }
