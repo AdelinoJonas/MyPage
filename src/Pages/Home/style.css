@@ -6,8 +6,202 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:100vw;
   }
 
+  .intro_face {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
   
+  .capa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .face-photo {
+    width: 24vw;
+    height: 50vh;
+    border-radius: 50%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
+  
+  .wellcome {
+    color: #b0aab4;
+    font-family: fira code;
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    margin: 0px auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .tag{
+    color: #c90064;
+    font-family: fira code;
+    font-size: 2rem;
+    line-height: 5rem;
+    width: max-content;
+    margin: 0;
+  }
+  
+  .lt-start{
+    color:rgba(226, 231, 230, 0.769);
+  }
+  .lt-end{
+    color:rgba(226, 231, 230, 0.769);
+  }
+  
+  .typing-animation {
+    animation: blinkCursor 800ms steps(25) infinite normal, typing 4s steps(25) 1s normal both;
+  }
+  
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 28rem;
+    }
+  }
+  
+  @keyframes blinkCursor {
+    from {
+        border-right-color: rgb(255, 255, 255);
+    }
+    to {
+        border-right-color: transparent;
+    }
+  }
+  
+  .main {
+    background-color: #f2f2f2;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .presents {
+    padding: 0px 30px 20px 30px;
+    margin-top: 15px;
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    color: #00ff87;
+    text-align: center;
+  }
+  
+  .me {
+    text-align: justify;
+    font-weight: 400;
+    /* color: rgba(226, 231, 230, 0.769); */
+    padding: 0px 25px 20px 25px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #33323D;
+  }
+  
+  .presents-2 {
+    color: #00ff27;
+    text-align: center;
+    font-family: indie Flower;
+    font-size: 2em;
+  }
+
+@media (max-width: 1000px) {
+  .face-photo {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 860px) {
+  .face-photo {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 700px) {
+  .face-photo {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .face-photo {
+    width: 50vw;
+    height: 45vh;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 650px) {
+  .wellcome {
+    color: #b0aab4;
+    font-family: fira code;
+    font-size: 1.5rem;
+    /* line-height: 5rem; */
+    text-align: center;
+    /* margin: 0px auto; */
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+  }
+  .tag{
+    color: #c90064;
+    font-family: fira code;
+    font-size: 1.5rem;
+    /* line-height: 5rem; */
+    width: max-content;
+    margin: 0;
+  }
+  
+  .lt-start{
+    color:rgba(226, 231, 230, 0.769);
+  }
+  .lt-end{
+    color:rgba(226, 231, 230, 0.769);
+  }
+
+  .face-photo {
+    width: 50vw;
+    height: 40vh;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-bottom: 2em;
+  }
+}
   
