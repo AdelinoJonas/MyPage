@@ -233,7 +233,8 @@ function FrontEnd() {
         <p>Aqui estão os cursos que participei e atividades pós cursos:</p>
         <div className="coursesList middleList">
           <div className="list">
-          <li><b>TÉCNICO EM INFORMATICA:</b> Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, Redes e hardware de computadores.</li>
+          <li><b>TÉCNICO EM INFORMATICA:</b> 
+          <br/>Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, Redes e hardware de computadores.</li>
             <div className="boxCertified">
               <button className="certified">
                 VER CERTIFICADO
@@ -249,7 +250,8 @@ function FrontEnd() {
             <img src={certifiedCubos} className='imgcourses image' alt="Certificado Cubos Academy" />
           </div>
           <div className="list">
-          <li><b>DESENVOLVIMENTO DE SOFTWARE - CUBOS ACADEMY:</b> HTML5, CSS3, JavaScript, NodeJs (express, npm, knex...), PostgresSQL, React.js, GIT e GITHUB. Desenvolvimento de SoftSkills  e metodologias ágeis como: Scrum, Kanban, Auto-conhecimento.</li>
+          <li><b>DESENVOLVIMENTO DE SOFTWARE - CUBOS ACADEMY:</b>
+          <br/>HTML5, CSS3, JavaScript, NodeJs (express, npm, knex...), PostgresSQL, React.js, GIT e GITHUB. Desenvolvimento de SoftSkills  e metodologias ágeis como: Scrum, Kanban, Auto-conhecimento.</li>
             <div className="boxCertified">
               <button className="certified">
                 VER CERTIFICADO
@@ -259,7 +261,8 @@ function FrontEnd() {
         </div>
         <div className="coursesList middleList">
           <div className="list">
-            <li><b>4º EDIÇÃO DO PROVIHACK:</b> Onde tive a oportunidade de trabalhar com uma equipe de tecnologia e desenvolver um projeto do zero para ajudar no combate ao aquecimento global utilizando a tecnologia.</li>
+            <li><b>4º EDIÇÃO DO PROVIHACK:</b> 
+            <br/>Onde tive a oportunidade de trabalhar com uma equipe de tecnologia e desenvolver um projeto do zero para ajudar no combate ao aquecimento global utilizando a tecnologia.</li>
             <div className="boxCertified">
               <button className="certified">
                 VER CERTIFICADO
@@ -272,7 +275,7 @@ function FrontEnd() {
         </div>
       </div>
       <div className="softSkills">
-        <div className="list">
+        <div className="listSoft">
           <p>Além das habilidades citadas acima, também tenho conhecimentos em algumas áreas realcionadas a softSkills, como:</p>
           <ul className="skillsList">
             <li>

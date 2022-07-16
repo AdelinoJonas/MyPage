@@ -326,7 +326,7 @@
    margin: 3vh 5vh 4vh 0;
 }
 
-.list p {
+.listSoft p {
    width: 100vw;
    margin-bottom: 30px;
    text-align: center;
@@ -339,6 +339,7 @@
 
 .list li{
    margin-left: 3rem;
+   width: 100%;
 }
 
 .coursesList {
@@ -360,6 +361,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-bottom: 5rem;
 }
 
 .certified {
@@ -453,7 +455,19 @@
    .list {
       padding: 0;
       width: 80%;
+      margin: 4rem;
+      width: 100%;
+   }
+   .listSoft {
+      padding: 0;
+      width: 70%;
       margin: 0;
+   }
+
+   .list li{
+      padding: 0;
+      width: 80%;
+      margin: 4rem;
    }
 
    .coursesList {
@@ -490,5 +504,6 @@
   }
    .skillsList li{
       margin-bottom: 3rem;
+      width: 100%;
   }
 }
