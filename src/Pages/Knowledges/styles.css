@@ -9,7 +9,6 @@
 }
 
 .titleSkill {
-   width: 47vw;
    padding-bottom: 20px;
    font-family: 'Ibarra Real Nova';
    font-weight: 700;
@@ -24,7 +23,6 @@
 }
 
 .leftSide p {
-   width: 48vw;
    text-align: justify;
    font-weight: 400;
    margin-top: 10px;
@@ -49,7 +47,7 @@
 }
 
 .nameSkills {
-   width: 10vw;
+   /* width: 10vw; */
    text-align: justify;
    font-weight: 700;
    padding: 0px 25px 20px 25px;
@@ -61,10 +59,10 @@
 }
 
 .hardSkills {
-   width: 45vw;
    display: flex;
    flex-direction: column;
    padding-top: 20px;
+   margin-right: 2rem;
 }
 
 .boxSkill {
@@ -77,7 +75,7 @@
 }
 
 .boxLevel {
-   width: 30vw;
+   width: 25vw;
    height: 8px;
    border-radius: 50px;
    border: 1px solid blue;
@@ -154,7 +152,7 @@
 }
 
 .boxlanguage {
-   width: 48vw;
+   width: 50vw;
    height: 35vh;
    justify-content: space-between;
    align-items: center;
@@ -165,7 +163,7 @@
 }
 
 .last {
-   width: 48vw;
+   width: 50vw;
    height: 35vh;
    justify-content: space-between;
    align-items: center;
@@ -186,7 +184,7 @@
    margin: 25px 0 5px 0;
    font-family: 'Public Sans';
    font-weight: 700;
-   font-size: 20px;
+   font-size: 2rem;
    line-height: 30px;
    color: #33323D;
 }
@@ -323,9 +321,9 @@
    display: flex;
    flex-direction: column;
    align-self: center;
-   padding: 0 20px 0 20px;
+   padding: 0 20px 0 0px;
    justify-content: space-evenly;
-   margin: 3vh 5vh 4vh 5vh;
+   margin: 3vh 5vh 4vh 0;
 }
 
 .list p {
@@ -337,6 +335,10 @@
    font-size: 30px;
    line-height: 30px;
    color: #33323D;
+}
+
+.list li{
+   margin-left: 3rem;
 }
 
 .coursesList {
@@ -382,4 +384,111 @@
 .certified:hover {
    background-color: #33323D;
    color: #fff;
+}
+
+@media (max-width: 900px) {
+   .list {
+      padding: 0;
+      width: 80%;
+      margin: 0;
+   }
+}
+
+@media (max-width: 770px) {
+   .firstSeason {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+   }
+
+   .leftSide {
+      width: 100%;
+      border: none;
+   }
+
+   .boxlanguage {
+      width: 100vw;
+      /* height: 35vh; */
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 80px;
+      margin-bottom: 10px 20px 20px 25px;
+      display: flex;
+      border-bottom: 1px solid #33323dd0;
+   }
+
+   .boxLevelSkills {
+      margin-right: 3rem;
+   }
+
+   .boxLevel {
+      width: 100%;
+   }
+
+   .containerLevel {
+      width: 50%;
+      margin-right: 2rem;
+   }
+
+   .nameSkills {
+      /* width: 10vw; */
+      text-align: justify;
+      font-weight: 700;
+      padding: 0 2rem 20px 1rem;
+      font-family: 'Public Sans';
+      font-size: 25px;
+      line-height: 30px;
+      color: #33323D;
+      justify-self: center;
+   }
+
+   .languages {
+      width: 100%;
+   }
+
+   .last {
+      width: 100%;
+   }
+
+   .list {
+      padding: 0;
+      width: 80%;
+      margin: 0;
+   }
+
+   .coursesList {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .middleList {
+      flex-direction: column-reverse;
+   }
+
+   .imgcourses {
+      width: 70vw;
+   }
+
+   .softSkills {
+      font-family: 'Public Sans';
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #33323D;
+      height: 100vh;
+      display: flex;
+   }
+
+   .skillsList{
+      width: 70vw;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      margin-left: 15vw;
+  }
+   .skillsList li{
+      margin-bottom: 3rem;
+  }
 }

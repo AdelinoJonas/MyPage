@@ -231,7 +231,7 @@ function FrontEnd() {
       </div>
       <div className="courses">
         <p>Aqui estão os cursos que participei e atividades pós cursos:</p>
-        <div className="coursesList">
+        <div className="coursesList middleList">
           <div className="list">
           <li><b>TÉCNICO EM INFORMATICA:</b> Windows, Word, Excel, PowerPoint, Sistema operacional LINUX, Redes e hardware de computadores.</li>
             <div className="boxCertified">
@@ -257,7 +257,7 @@ function FrontEnd() {
             </div>
           </div>
         </div>
-        <div className="coursesList">
+        <div className="coursesList middleList">
           <div className="list">
             <li><b>4º EDIÇÃO DO PROVIHACK:</b> Onde tive a oportunidade de trabalhar com uma equipe de tecnologia e desenvolver um projeto do zero para ajudar no combate ao aquecimento global utilizando a tecnologia.</li>
             <div className="boxCertified">

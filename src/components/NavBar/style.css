@@ -18,7 +18,6 @@
   list-style: none;
   width: 60vw;
   height: 100%;
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -31,6 +30,7 @@
   font-size: 2rem;
   color: #e2e7e6c4;
   cursor: pointer;
+  border-bottom: 1px solid rgba(236, 228, 228, 0.733);
 }
 
 .menu-link:hover {
@@ -94,7 +94,7 @@
   }
 
   input:checked~label .menu {
-    box-shadow: 0 0 0 20vw rgba(65, 64, 64, 0.849), 0 0 0 20vw rgba(65, 64, 64, 0.849);
+    box-shadow: 0 0 0 22vw rgba(65, 64, 64, 0.849), 0 0 0 22vw rgba(65, 64, 64, 0.849);
   }
 
   input:checked~ul {
@@ -155,7 +155,7 @@
     transform: translate(-60%, -20%);
     opacity: 0;
     transition: box-shadow 1s 1s cubic-bezier(1, 1.03, 0, 2.02);
-    margin-top: 23rem;
+    margin-top: 24rem;
     margin-left: 10rem;
     width: 15rem;
     /* height: 50vh; */
@@ -169,13 +169,13 @@
 
 @media (max-width: 700px) {
   input:checked~label .menu {
-    box-shadow: 0 0 0 28vw rgba(65, 64, 64, 0.849), 0 0 0 30vw rgba(65, 64, 64, 0.849);
+    box-shadow: 0 0 0 29vw rgba(65, 64, 64, 0.849), 0 0 0 31vw rgba(65, 64, 64, 0.849);
   }
 }
 
 @media (max-width: 490px) {
   input:checked~label .menu {
-    box-shadow: 0 0 0 30vw rgba(65, 64, 64, 0.849), 0 0 0 31vw rgba(65, 64, 64, 0.849);
+    box-shadow: 0 0 0 35vw rgba(65, 64, 64, 0.849), 0 0 0 36vw rgba(65, 64, 64, 0.849);
   }
 
   .container-link {
@@ -184,7 +184,7 @@
     transform: translate(-60%, -20%);
     opacity: 0;
     transition: box-shadow 1s 1s cubic-bezier(1, 1.03, 0, 2.02);
-    margin-top: 18rem;
+    margin-top: 21rem;
     margin-left: 8rem;
     width: 15rem;
     /* height: 50vh; */
@@ -197,7 +197,7 @@
 
   .menu {
     background: rgba(65, 64, 64, 0.849);
-    width: 5vw;
+    width: 8vw;
     height: 6vh;
 
     display: flex;
@@ -208,5 +208,11 @@
     border-radius: 10px;
     box-shadow: 0 0 0 0 rgba(65, 64, 64, 0.849), 0 0 0 0 rgba(65, 64, 64, 0.849);
     transition: box-shadow .43s cubic-bezier(.29, .5, .27, .5);
+  }
+}
+
+@media (max-width: 370px) {
+  input:checked~label .menu {
+    box-shadow: 0 0 0 38vw rgba(65, 64, 64, 0.849), 0 0 0 39vw rgba(65, 64, 64, 0.849);
   }
 }
