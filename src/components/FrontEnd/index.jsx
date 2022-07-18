@@ -1,11 +1,11 @@
 import "./style.css";
-import { useContext, useState } from "react";
+// import { useContext, useState } from "react";
 // import UserContext from '../../contexts/userContext';
 import project1 from "../../images_all/projects/toDoList.png";
 import project2 from "../../images_all/projects/dindin.png";
 import project3 from "../../images_all/projects/cuboflix.png";
 import project4 from "../../images_all/projects/SistemaCobranca.png";
-import ModalProject from "../ModalProject";
+// import ModalProject from "../ModalProject";
 
 function FrontEnd() {
   // const [openModal, setOpenModal] = useState(false);

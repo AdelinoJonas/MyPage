@@ -15,7 +15,6 @@
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid #33323dd0;
-  height: 20rem;
 }
 
 .title {
@@ -32,8 +31,15 @@ section p {
   font-family: 'Public Sans';
   font-weight: 400;
   font-size: 16px;
+  text-align: justify;
   line-height: 30px;
   color: #33323D;
+}
+
+.division {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .gitIcon {
@@ -120,6 +126,47 @@ label input {
   margin-top: 2%;
 }
 
-.buttonSend:hover{
+.buttonSend:hover {
   background-color: #5FB4A2;
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 2.5rem;
+    width: 60%;
+  }
+
+  .containerContact {
+    width: 90vw;
+  }
+
+  .division {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+  }
+
+  .sectionContact {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  section p {
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .linkIcon {
+    margin: 0;
+  }
+
+  .titleForm {
+    flex-direction: column;
+  }
+
+  .form label {
+    width: 100%;
+  }
+
 }

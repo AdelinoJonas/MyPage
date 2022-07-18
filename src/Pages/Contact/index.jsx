@@ -5,7 +5,7 @@ import linkedin from "../../images_all/contact/linkdin-black.svg";
 import axios from "axios";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
-import Snackbar from '@mui/material/Snackbar';
+import Snackbar from "@mui/material/Snackbar";
 
 function Contact() {
   const [inputs, setInputs] = useState({
@@ -39,15 +39,15 @@ function Contact() {
   }
 
   const [open, setOpen] = useState(false);
-  
+
   const handleClose = (event, reason) => {
-    if (reason === 'clickaway') {
+    if (reason === "clickaway") {
       return;
     }
-    
+
     setOpen(false);
   };
-  
+
   function handleFormSubmit(event) {
     event.preventDefault();
     send(inputs);
@@ -67,15 +67,17 @@ function Contact() {
             detalhes. Fique livre para checar meus perfis abaixo e entrar em
             contato utilizando o formulário.
           </p>
-          <a
-            href="https://www.linkedin.com/in/jonas-adelino-168830179/"
-            className="linkIcon"
-          >
-            <img className="linkIcon" src={linkedin} alt="linkdin icon" />
-          </a>
-          <a href="https://github.com/AdelinoJonas" className="gitIcon">
-            <img className="gitIcon" src={github} alt="github icon" />
-          </a>
+          <div className="division">
+            <a
+              href="https://www.linkedin.com/in/jonas-adelino-168830179/"
+              className="linkIcon"
+            >
+              <img className="linkIcon" src={linkedin} alt="linkdin icon" />
+            </a>
+            <a href="https://github.com/AdelinoJonas" className="gitIcon">
+              <img className="gitIcon" src={github} alt="github icon" />
+            </a>
+          </div>
         </section>
       </div>
       <div className="titleForm">
@@ -119,11 +121,16 @@ function Contact() {
         </form>
       </div>
       {/* <Stack spacing={2} sx={{ width: '700px' }}> */}
-        <Snackbar open={open} onClose={handleClose} autoHideDuration={3000}>
-          <Alert  onClose={handleClose} variant="filled" severity="success" sx={{ width: '700px' }}>
-            E-mail enviado com sucesso!
-          </Alert>
-        </Snackbar>
+      <Snackbar open={open} onClose={handleClose} autoHideDuration={3000}>
+        <Alert
+          onClose={handleClose}
+          variant="filled"
+          severity="success"
+          sx={{ width: "700px" }}
+        >
+          E-mail enviado com sucesso!
+        </Alert>
+      </Snackbar>
       {/* </Stack> */}
     </div>
   );
