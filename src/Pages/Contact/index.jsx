@@ -13,11 +13,6 @@ function Contact() {
     email: "",
     mensagem: "",
   });
-  const [inputsEmpt, setInputsEmpt] = useState({
-    nome: "",
-    email: "",
-    mensagem: "",
-  });
 
   function handleInputChange(event) {
     inputs[event.target.name] = event.target.value;
@@ -53,6 +48,15 @@ function Contact() {
     send(inputs);
     setOpen(true);
   }
+
+  function handleReset() {
+    Array.from(document.querySelectorAll("input")).forEach(
+      input => (input.value = "")
+    );
+    this.setState({
+      itemvalues: [{}]
+    });
+  };
 
   return (
     <div className="containerContact">
@@ -115,7 +119,7 @@ function Contact() {
               required
             />
           </label>
-          <button className="buttonSend" type="submit">
+          <button className="buttonSend" type="submit" onClick={handleReset}>
             Enviar
           </button>
         </form>
