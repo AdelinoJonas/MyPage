@@ -7,7 +7,6 @@
 }
 
 .titleProjects {
-    margin-bottom: 4vh;
     font-family: 'Ibarra Real Nova';
     font-weight: 700;
     font-size: 40px;
@@ -76,4 +75,39 @@
 
 .description a{
     all: unset;
+}
+
+@media (max-width: 450px) {
+    .lineRow {
+        width: 100%;
+        margin-bottom: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 6vh;
+        border-bottom: 1px solid #33323d34;
+    }
+
+    .arrows {
+        margin: 0 1rem 0 1rem;
+    }
+    .titleProjects{
+        font-size: 3rem;
+    }
+    .boxProject {
+        flex-direction: column;
+    }
+
+    .reverse{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .picture {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
 }

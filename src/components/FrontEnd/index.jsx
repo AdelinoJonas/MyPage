@@ -39,7 +39,7 @@ function FrontEnd() {
           </button> */}
         </div>
       </div>
-      <div className="boxProject">
+      <div className="boxProject reverse">
         <div className="description">
           <h1>DinDin</h1>
           <p>
@@ -78,7 +78,7 @@ function FrontEnd() {
           {/* <button className="button-pt">ver projeto</button> */}
         </div>
       </div>
-      <div className="boxProject">
+      <div className="boxProject reverse">
         <div className="description">
           <h1>CONTROLE DE COBRANÇAS</h1>
           <p>

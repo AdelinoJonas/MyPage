@@ -35,7 +35,7 @@ function FrontEnd() {
           </a> */}
         </div>
       </div>
-      <div className="boxProject">
+      <div className="boxProject reverse">
         <div className="description">
           <h1>CONTROLE DE FINANÇAS</h1>
           <ul>
