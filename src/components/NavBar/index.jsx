@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
 
-  const [isChecked, setIsChecked] = useState(true);
+  const [isChecked, setIsChecked] = useState(false);
 
   const handleOnChange = () => {
     setIsChecked(!isChecked);
