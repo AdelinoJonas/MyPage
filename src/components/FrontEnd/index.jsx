@@ -15,7 +15,8 @@ function FrontEnd() {
   // }
 
   return (
-    <div className="containerFront">
+    // <div className="containerFront">
+      <>
       <div className="boxProject">
         <div className="picture">
           <img className="image" src={project1} alt="To do list" />
@@ -106,7 +107,8 @@ function FrontEnd() {
           <img className="image" src={project4} alt="Sistema de cobrança" />
         </div>
       </div>
-    </div>
+      </>
+    // </div>
   );
 }
 

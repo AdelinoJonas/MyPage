@@ -17,7 +17,7 @@ function NavBar() {
         <div className="row-menu">
           <input className="inputMenu" id="menu-hamburguer" type="checkbox" checked={isChecked}
           onChange={handleOnChange}/>
-          <label for="menu-hamburguer">
+          <label htmlFor="menu-hamburguer">
             <div className="menu">
               <span className="hamburguer"></span>
             </div>

@@ -39,16 +39,17 @@ section p {
 .division {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
 }
 
 .gitIcon {
-  width: 3rem;
+  width: 6rem;
   margin-left: 4%;
 }
 
 .linkIcon {
-  width: 3rem;
+  width: 6rem;
   margin-left: 38%;
 }
 
@@ -143,7 +144,7 @@ label input {
   .division {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 2rem;
   }
 
