@@ -10,11 +10,11 @@ function Home() {
         </div>
         <h1 className="wellcome typing-animation">
           <code className="lt-start">&lt;</code>
-          <h1 className="tag">h1</h1>
+          <span className="tag">h1</span>
           <code className="lt-end">&gt;</code>
           Bem-vindo(a) ao meu Portfólio!
           <code className="lt-start">&lt;/</code>
-          <h1 className="tag">h1</h1>
+          <span className="tag">h1</span>
           <code className="lt-end">&gt;</code>
         </h1>
       </div>

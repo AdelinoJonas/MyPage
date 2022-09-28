@@ -346,9 +346,8 @@
 }
 
 .skillsList {
-   width: 70vw;
    display: flex;
-   margin-left: 15vw;
+   margin-left: 5vw;
 }
 
 .boxCertified {
