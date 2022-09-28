@@ -3,17 +3,16 @@ footer {
   background-color: rgba(0, 0, 0, 0.849);
  
   color: #FFF;
-  font-size: 1.5rem;
   text-align: center;
   font-family: fira code;
-
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
   
 .logoFooter {
-    width: 10vw;
+    width: 16vw;
   }
 
 div h2{
@@ -21,6 +20,5 @@ div h2{
   text-align: end;
   font-family: 'Ibarra Real Nova';
   font-weight: 600;
-  font-size: 1.5rem;
   color: #e2e7e6c4;
 }

@@ -109,7 +109,7 @@ function Contact() {
           </label>
           <label className="msg" htmlFor="msg">
             Mensagem
-            <textarea
+            <input
               className="inputMsg"
               name="msg"
               id=""

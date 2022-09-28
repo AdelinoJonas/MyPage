@@ -6,7 +6,6 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    min-width:100vw;
   }
 
   .intro_face {
