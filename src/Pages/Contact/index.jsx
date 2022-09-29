@@ -2,7 +2,7 @@ import "./style.css";
 import { useState } from "react";
 import github from "../../images_all/contact/github-Black.svg";
 import linkedin from "../../images_all/contact/linkdin-black.svg";
-import axios from "axios";
+// import axios from "axios";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
 import Snackbar from "@mui/material/Snackbar";
@@ -19,6 +19,13 @@ function Contact() {
   const onSubmit = (data) => console.log(data);
 
   const [successOpened, setSuccessOpened] = useState(false);
+
+  const successRegister = () => {
+    {
+      !errors && setSuccessOpened(true);
+    }
+    return;
+  };
 
   return (
     <div className="containerContact">
@@ -99,8 +106,9 @@ function Contact() {
           <button
             className="buttonSend"
             type="submit"
-            // onClick={() => {
-            // }}
+            onClick={() => {
+              if(!errors){setSuccessOpened(true)}
+            }}
           >
             Enviar
           </button>

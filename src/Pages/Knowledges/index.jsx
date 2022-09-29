@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Link, useHistory, BrowserRouter as Router } from "react-router-dom";
+// import { Link, useHistory, BrowserRouter as Router } from "react-router-dom";
 import certifiedProvi from "../../images_all/knowledges/provihack.jpg";
 import certifiedCubos from "../../images_all/knowledges/certificado-cubos-frente.jpg";
 import certifiedtec from "../../images_all/knowledges/tecnico-em-informática.jpg";
