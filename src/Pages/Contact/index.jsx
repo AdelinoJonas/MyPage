@@ -1,61 +1,30 @@
 import "./style.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import github from "../../images_all/contact/github-Black.svg";
 import linkedin from "../../images_all/contact/linkdin-black.svg";
-import axios from "axios";
+// import axios from "axios";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
 import Snackbar from "@mui/material/Snackbar";
+import { useForm } from "react-hook-form";
 
 function Contact() {
-  const [inputs, setInputs] = useState({
-    nome: "",
-    email: "",
-    mensagem: "",
-  });
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    clearErrors,
+  } = useForm();
 
-  function handleInputChange(event) {
-    inputs[event.target.name] = event.target.value;
-    setInputs(inputs);
-  }
+  const onSubmit = (data) => console.log(data);
 
-  function send() {
-    const formData = new FormData();
-    Object.keys(inputs).forEach((key) => formData.append(key, inputs[key]));
-    axios
-      .post("http://localhost:3030/send", formData, {
-        headers: {
-          "Content-type": "multipart/form-data; boundary=${formData._boundary}",
-        },
-      })
-      .then((response) => {
-        console.log(response.data);
-      });
-  }
+  const [successOpened, setSuccessOpened] = useState(false);
 
-  const [open, setOpen] = useState(false);
-
-  const handleClose = (event, reason) => {
-    if (reason === "clickaway") {
-      return;
+  const successRegister = () => {
+    {
+      !errors && setSuccessOpened(true);
     }
-
-    setOpen(false);
-  };
-
-  function handleFormSubmit(event) {
-    event.preventDefault();
-    send(inputs);
-    setOpen(true);
-  }
-
-  function handleReset() {
-    Array.from(document.querySelectorAll("input")).forEach(
-      input => (input.value = "")
-    );
-    this.setState({
-      itemvalues: [{}]
-    });
+    return;
   };
 
   return (
@@ -86,56 +55,72 @@ function Contact() {
       </div>
       <div className="titleForm">
         <h1 className="title">Contato</h1>
-        <form className="form" onSubmit={handleFormSubmit}>
-          <label className="name" htmlFor="name">
-            Nome
+        <form className="form" onSubmit={handleSubmit(onSubmit)}>
+          <label className="name" htmlFor="nameInput">
+            Nome*
             <input
+              {...register("name", { required: true })}
               className="inputName"
               type="text"
               name="name"
-              onChange={handleInputChange}
-              required
+              maxLength={25}
+              onClick={() => {
+                clearErrors("name");
+              }}
             />
+            {errors.name && (
+              <p className="errorSpan">Este campo é obrigatório.</p>
+            )}
           </label>
           <label className="email" htmlFor="email">
-            E-mail
+            E-mail*
             <input
+              {...register("email", { required: true })}
               className="inputEmail"
-              type="text"
+              type="email"
               name="email"
-              onChange={handleInputChange}
-              required
+              maxLength={25}
+              onClick={() => {
+                clearErrors("email");
+              }}
             />
+            {errors.email && (
+              <p className="errorSpan">Este campo é obrigatório.</p>
+            )}
           </label>
-          <label className="msg" htmlFor="msg">
-            Mensagem
+          <label className="msg" htmlFor="message">
+            Mensagem*
             <textarea
+              {...register("message", { required: true })}
               className="inputMsg"
-              name="msg"
-              id=""
-              cols="1"
-              rows="5"
-              onChange={handleInputChange}
-              required
+              name="message"
+              cols={1}
+              onClick={() => {
+                clearErrors("message");
+              }}
             />
+            {errors.message && (
+              <p className="errorSpan">Este campo é obrigatório.</p>
+            )}
           </label>
-          <button className="buttonSend" type="submit" onClick={handleReset}>
+          <button
+            className="buttonSend"
+            type="submit"
+            onClick={() => {
+              if(!errors){setSuccessOpened(true)}
+            }}
+          >
             Enviar
           </button>
         </form>
       </div>
-      {/* <Stack spacing={2} sx={{ width: '700px' }}> */}
-      <Snackbar open={open} onClose={handleClose} autoHideDuration={3000}>
-        <Alert
-          onClose={handleClose}
-          variant="filled"
-          severity="success"
-          sx={{ width: "700px" }}
-        >
-          E-mail enviado com sucesso!
-        </Alert>
-      </Snackbar>
-      {/* </Stack> */}
+      <Stack sx={{ width: "100%" }} spacing={2}>
+        <Snackbar open={successOpened} autoHideDuration={3000}>
+          <Alert variant="filled" severity="success" sx={{ width: "700px" }}>
+            E-mail enviado com sucesso!
+          </Alert>
+        </Snackbar>
+      </Stack>
     </div>
   );
 }

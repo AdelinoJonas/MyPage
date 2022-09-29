@@ -5,6 +5,7 @@ import project1 from "../../images_all/projects/toDoList.png";
 import project2 from "../../images_all/projects/dindin.png";
 import project3 from "../../images_all/projects/cuboflix.png";
 import project4 from "../../images_all/projects/SistemaCobranca.png";
+import project5 from "../../images_all/projects/myBeauty.png";
 // import ModalProject from "../ModalProject";
 
 function FrontEnd() {
@@ -15,7 +16,27 @@ function FrontEnd() {
   // }
 
   return (
-    <div className="containerFront">
+    // <div className="containerFront">
+    <>
+    <div className="boxProject reverse">
+        <div className="description">
+          <h1>My Beauty Pass</h1>
+          <p>
+            Trabalho voluntário para desenvolvimento de uma landing page produzido em ReactJS e um app Mobile produzido em React Native de um beneficio empresarial voltado a beleza e estética.<br/>
+            Durante este projeto, me dediquei ao desenvolvimento das páginas mantendo o pixel perfect com base no figma. <br/>
+            Para a produção do App, trabalhando com microserviços, mantendo o código mais limpo possível buscando o maior desempenho e focando na experiência do usuário.
+          </p>
+          {/* <a href="https://github.com/AdelinoJonas/DinDin_MoneyControl">
+            <button className="buttonSend">Ver repositório</button>
+          </a> */}
+          <a href="https://mybeautypass.com">
+            <button className="button-pt">ver projeto</button>
+          </a>
+        </div>
+        <div className="picture">
+          <img className=" myBeautyImage" src={project5} alt="My Beauty Pass" />
+        </div>
+      </div>
       <div className="boxProject">
         <div className="picture">
           <img className="image" src={project1} alt="To do list" />
@@ -106,7 +127,8 @@ function FrontEnd() {
           <img className="image" src={project4} alt="Sistema de cobrança" />
         </div>
       </div>
-    </div>
+    </>
+    // </div>
   );
 }
 

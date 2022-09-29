@@ -39,16 +39,17 @@ section p {
 .division {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
 }
 
 .gitIcon {
-  width: 3rem;
+  width: 6rem;
   margin-left: 4%;
 }
 
 .linkIcon {
-  width: 3rem;
+  width: 6rem;
   margin-left: 38%;
 }
 
@@ -92,8 +93,9 @@ label input {
   padding: 0;
   box-sizing: border-box;
   height: 15vh;
-  align-items: start;
-  flex-wrap: wrap;
+  /* align-items: start; */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   background-color: #33323d27;
   color: #203A4C;
   font-family: 'Public Sans';
@@ -130,6 +132,12 @@ label input {
   background-color: #5FB4A2;
 }
 
+.errorSpan {
+  font-size: 1.5rem;
+  color: red;
+  margin-top: .5rem;
+}
+
 @media (max-width: 450px) {
   .title {
     font-size: 2.5rem;
@@ -143,7 +151,7 @@ label input {
   .division {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 2rem;
   }
 

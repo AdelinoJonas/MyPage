@@ -3,3 +3,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+.myBeautyImage {
+    width: 40vw;
+    height: 80%;
+}

@@ -1,10 +1,9 @@
 import "./style.css";
 import logo from "../../images_all/navBar/logo_jonas.png";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
-
   const [isChecked, setIsChecked] = useState(false);
 
   const handleOnChange = () => {
@@ -15,9 +14,14 @@ function NavBar() {
     <div className="NavBar">
       <nav className="nav">
         <div className="row-menu">
-          <input className="inputMenu" id="menu-hamburguer" type="checkbox" checked={isChecked}
-          onChange={handleOnChange}/>
-          <label for="menu-hamburguer">
+          <input
+            className="inputMenu"
+            id="menu-hamburguer"
+            type="checkbox"
+            checked={isChecked}
+            onChange={handleOnChange}
+          />
+          <label htmlFor="menu-hamburguer">
             <div className="menu">
               <span className="hamburguer"></span>
             </div>
@@ -28,7 +32,9 @@ function NavBar() {
                 to={"/"}
                 className="menu-link"
                 activeStyle={{ color: "#00FF87" }}
-                onClick={()=>{isChecked && setIsChecked(false)}}
+                onClick={() => {
+                  isChecked && setIsChecked(false);
+                }}
               >
                 Início
               </NavLink>
@@ -38,7 +44,9 @@ function NavBar() {
                 to={"/About"}
                 className="menu-link"
                 activeStyle={{ color: "#FF8700" }}
-                onClick={()=>{isChecked && setIsChecked(false)}}
+                onClick={() => {
+                  isChecked && setIsChecked(false);
+                }}
               >
                 Sobre mim
               </NavLink>
@@ -48,7 +56,9 @@ function NavBar() {
                 to={"/Knowledge"}
                 className="menu-link"
                 activeStyle={{ color: "#FF8700" }}
-                onClick={()=>{isChecked && setIsChecked(false)}}
+                onClick={() => {
+                  isChecked && setIsChecked(false);
+                }}
               >
                 Conhecimentos
               </NavLink>
@@ -58,7 +68,9 @@ function NavBar() {
                 to={"/projects"}
                 className="menu-link"
                 activeStyle={{ color: "#FF8700" }}
-                onClick={()=>{isChecked && setIsChecked(false)}}
+                onClick={() => {
+                  isChecked && setIsChecked(false);
+                }}
               >
                 Projetos
               </NavLink>
@@ -68,7 +80,9 @@ function NavBar() {
                 to={"/contact"}
                 className="menu-link"
                 activeStyle={{ color: "#FF8700" }}
-                onClick={()=>{isChecked && setIsChecked(false)}}
+                onClick={() => {
+                  isChecked && setIsChecked(false);
+                }}
               >
                 Contato
               </NavLink>

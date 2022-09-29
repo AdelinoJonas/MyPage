@@ -25,27 +25,29 @@
 .meAbout {
   font-family: 'Ibarra Real Nova';
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 5rem;
   color: #33323D;
-  margin-bottom: 5vh;
   text-align: center;
 }
 
 .text-meAbout {
   font-family: 'Public Sans';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 2rem;
   line-height: 30px;
+  text-align: justify;
   color: #33323D;
   padding-left: 3rem;
   margin-right: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 
 .text-me2 {
   font-family: 'Public Sans';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 2rem;
   line-height: 30px;
   color: #33323D;
   width: 60%;
@@ -63,6 +65,7 @@
 .cwb {
   width: 35vw;
   margin-left: 20px;
+  margin-right: 20px;
   border-radius: 40px;
 }
 
@@ -70,7 +73,7 @@
   border-top: 1px solid #33323d42;
   border-bottom: 1px solid #33323d42;
   height: 20vh;
-  width: 100vw;
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -80,8 +83,8 @@
 .size-box {
   width: 50%;
   text-align: left;
-  line-height: 30px;
-  padding-top: 5vh;
+  padding-top: 8vh;
+  padding-bottom: 9vh;
 }
 
 .boxPort {

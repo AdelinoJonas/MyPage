@@ -78,7 +78,7 @@ function Projects() {
           className="arrows"
           onClick={() => prevStack(currentStack)}
         />
-          <h1 className="titleProjects">{currentStack.name}</h1>
+        <h1 className="titleProjects">{currentStack.name}</h1>
         <img
           src={next}
           alt="arrow right"
@@ -86,7 +86,7 @@ function Projects() {
           onClick={() => nextStack(currentStack)}
         />
       </section>
-        {currentStack.stack}
+      {currentStack.stack}
     </div>
   );
 }
