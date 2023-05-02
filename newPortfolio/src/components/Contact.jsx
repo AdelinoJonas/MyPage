@@ -7,8 +7,9 @@ import {EarthCanvas} from './canvas';
 import {SectionWrapper} from '../hoc';
 import {slideIn} from '../utils/motion';
 
-function Contact () {
 
+function Contact () {
+  
   const formRef = useRef();
   const [form, setForm] = useState({
     name:'',
@@ -18,11 +19,46 @@ function Contact () {
   const [loading, setLoading] = useState(false);
 
   function handleChange(e){
-
+    const {name, value} = e.target;
+    
+    setForm({...form, [name]: value})
   };
-
+  
   function handleSubmit(e){
+    e.preventDefault();
 
+    setLoading(true);
+
+    emailjs.send(
+      'service_nvh4z1i',
+      'template_3ohxj11',
+      {
+        from_name:form.name,
+        to_name: 'Jonas Adelino Neto',
+        from_email: form.email,
+        to_email: 'jonas.gastro91@gmail.com',
+        message: form.message,
+      },
+      'weE0VPhrCVGYj7qbB'
+    )
+    .then(
+      () => {
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible.");
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },
+      (error) => {
+        setLoading(false);
+        console.error(error);
+
+        alert("Ahh, something went wrong. Please try again.");
+      }
+    );
   };
 
   return (
@@ -37,6 +73,7 @@ function Contact () {
               Your Name
             </span>
             <input 
+              required
               type="text"
               name="name"
               value={form.name}
@@ -50,6 +87,7 @@ function Contact () {
               Your E-mail
             </span>
             <input 
+              required
               type="email"
               name="email"
               value={form.email}
@@ -63,6 +101,7 @@ function Contact () {
               Your Message
             </span>
             <textarea 
+              required
               rows="7"
               name="message"
               value={form.message}
