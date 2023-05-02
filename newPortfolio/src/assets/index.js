@@ -24,11 +24,10 @@ import threejs from "./tech/threejs.svg";
 
 import myBeauty from "./company/myBeauty.jpg";
 import cubosAcademy from "./company/cubosAcademy.jpg";
-import provi from "./company/provi_logo.png";
+import econexo from "./company/econexo.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import myBeautyPass from "./company/myBeauty.png";
+import maisAdv from "./company/maisAdv.png";
 
 export {
   logo,
@@ -55,8 +54,7 @@ export {
   threejs,
   myBeauty,
   cubosAcademy,
-  provi,
-  carrent,
-  jobit,
-  tripguide,
+  econexo,
+  myBeautyPass,
+  maisAdv,
 };

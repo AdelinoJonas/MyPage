@@ -18,9 +18,9 @@ import {
   docker,
   myBeauty,
   cubosAcademy,
-  provi,
-  jobit,
-  tripguide,
+  econexo,
+  myBeautyPass,
+  maisAdv,
   threejs,
 } from "../assets";
 
@@ -170,67 +170,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Provi Hackathon",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search for suppliers of materials for the civil construction sector produced with recycled and/or reforested products, providing a solution that helps to conserve the planet.",
     tags: [
       {
-        name: "react",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgreSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: provi,
-    source_code_link: "https://github.com/",
+    image: econexo,
+    source_code_link: "https://github.com/AdelinoJonas/api_econexo",
   },
   {
-    name: "Job IT",
+    name: "My Beauty Pass",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Corporate benefit focused on beauty. A platform where registered customers can make appointments and discover the location of partner establishments.",
     tags: [
       {
-        name: "react",
+        name: "reactNative",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "styled-components",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mapsAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: myBeautyPass,
+    source_code_link: "https://www.mybeautypass.com/ourTeam",
   },
   {
-    name: "Trip Guide",
+    name: "Mais ADV",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A platform for registration of offices so that they can register their customers and their respective audiences, in addition to digital signature, generate PDF among other features.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "styled-components",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "cypress",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: maisAdv,
+    source_code_link: "https://github.com/AdelinoJonas",
   },
 ];
 
