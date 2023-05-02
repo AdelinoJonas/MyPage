@@ -52,11 +52,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -81,7 +77,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "cypress",
     icon: redux,
   },
   {
