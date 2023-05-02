@@ -12,7 +12,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+function ExperienceCard ({ experience }) {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -56,7 +56,7 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
+function Experience () {
   return (
     <>
       <motion.div variants={textVariant()}>

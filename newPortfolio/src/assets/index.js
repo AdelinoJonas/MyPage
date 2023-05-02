@@ -13,10 +13,11 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import sql from "./tech/sql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import cypress from "./tech/cypress.png";
+import sass from "./tech/sass.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -44,10 +45,11 @@ export {
   git,
   html,
   javascript,
-  mongodb,
+  sql,
   nodejs,
   reactjs,
-  redux,
+  cypress,
+  sass,
   tailwind,
   typescript,
   threejs,

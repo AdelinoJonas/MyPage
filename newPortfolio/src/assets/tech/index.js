@@ -8,8 +8,7 @@ import {
   html,
   css,
   reactjs,
-  cypress,
-  sass,
+  redux,
   tailwind,
   nodejs,
   sql,
@@ -76,12 +75,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Cypress",
-    icon: cypress,
-  },
-  {
-    name: "Sass",
-    icon: sass,
+    name: "cypress",
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -92,7 +87,7 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "SQL",
+    name: "MongoDB",
     icon: sql,
   },
   {
