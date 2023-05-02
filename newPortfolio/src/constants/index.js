@@ -15,11 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  myBeauty,
+  cubosAcademy,
+  provi,
   jobit,
   tripguide,
   threejs,
@@ -112,53 +110,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full stack Engineer",
+    company_name: "MY BEAUTY PASS",
+    icon: myBeauty,
+    iconBg: "#E6DEDD",
+    date: "Aug 2022 - Dec 2022",
+    points: [
+      "Developing web and mobile applications using ReactJS and React Native and other related technologies.",
+      "Collaborating with cross-functional teams including designers, and other developers to create high-quality product.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "CUBOS ACADEMY",
+    icon: cubosAcademy,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -168,7 +139,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -211,7 +182,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: provi,
     source_code_link: "https://github.com/",
   },
   {
