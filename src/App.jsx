@@ -15,7 +15,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        {/* <Feedbacks /> */}
+        <Feedbacks />
         <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Contact />
           {/* <StarsCanvas /> */}
