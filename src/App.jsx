@@ -16,9 +16,9 @@ function App() {
         <Tech />
         <Works />
         {/* <Feedbacks /> */}
-        <div className='relative z-0'>
+        <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
