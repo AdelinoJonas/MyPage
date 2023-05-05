@@ -24,7 +24,7 @@ function HeroMobile () {
         </div>
       </div>
 
-      <ComputersCanvas/>
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-4 bottom-30 w-full flex justify-center items-center'>
         <a href='#about'>
