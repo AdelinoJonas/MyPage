@@ -48,7 +48,7 @@ function ComputersCanvas () {
     };
   }, []);
 
-  return isMobile && (
+  return !isMobile && (
     <Canvas
       frameloop='demand'
       shadows
