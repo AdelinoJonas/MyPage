@@ -28,6 +28,10 @@ import econexo from "./company/econexo.jpg";
 
 import myBeautyPass from "./company/myBeauty.png";
 import maisAdv from "./company/maisAdv.png";
+import pinheiro from "./company/pinheiroContabil.png";
+import pine from "./company/pineLogo.png";
+import githubContact from "./logos/github.svg";
+import linkedin from "./logos/linkdin.svg";
 
 export {
   logo,
@@ -57,4 +61,8 @@ export {
   econexo,
   myBeautyPass,
   maisAdv,
+  pinheiro,
+  pine,
+  linkedin,
+  githubContact
 };

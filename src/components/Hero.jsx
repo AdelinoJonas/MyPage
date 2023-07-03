@@ -5,6 +5,23 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 function Hero () {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -13,7 +30,7 @@ function Hero () {
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-2 sm:h-80 h-80 violet-gradient' />
         </div>
 
         <div>

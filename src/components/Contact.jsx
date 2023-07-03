@@ -6,6 +6,10 @@ import {styles} from '../styles';
 import {EarthCanvas} from './canvas';
 import {SectionWrapper} from '../hoc';
 import {slideIn} from '../utils/motion';
+import {
+  githubContact,
+  linkedin
+} from "../assets";
 
 
 function Contact () {
@@ -66,7 +70,16 @@ function Contact () {
       <motion.div variants={slideIn('left', "tween", 0.2,1)} className="flex-[0.75] bg-black-100 p-8 rounded-2x1">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-
+        <span className="text-white font-medium mb-4">I would love to hear about your current job and how I could help. I am currently looking for a position and open to multiple opportunities. I'm a hardworking and positive person who will always do things with a sense of purpose and attention to detail. Feel free to check out my profiles below and get in touch using the form.</span>
+        <div className="flex gap-4 mt-6 justify-center">
+          <a href="https://www.linkedin.com/in/jonas-adelino-168830179/" target="_blank" rel="noopener noreferrer">
+            <img className='w-16 h-16'
+            src={linkedin} alt="Linkedin" />
+          </a>
+          <a href="https://github.com/AdelinoJonas" target="_blank" rel="noopener noreferrer">
+            <img className='w-16 h-16' src={githubContact} alt="github" />
+          </a>
+        </div>
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">
@@ -115,7 +128,7 @@ function Contact () {
       </motion.div>
       <motion.div
         variants={slideIn('right', "tween", 0.2,1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[350px] h-[150px]"
       >
 
           <EarthCanvas />

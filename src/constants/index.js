@@ -22,6 +22,8 @@ import {
   myBeautyPass,
   maisAdv,
   threejs,
+  pine,
+  pinheiro
 } from "../assets";
 
 export const navLinks = [
@@ -131,12 +133,22 @@ const experiences = [
     company_name: "CUBOS ACADEMY",
     icon: cubosAcademy,
     iconBg: "#383E56",
-    date: "Nov 2022 - Present",
+    date: "Nov 2022 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Freelancer",
+    company_name: "Pinheiro Contabilidade",
+    icon: pine,
+    iconBg: "#E6DEDD",
+    date: "Jun 2023 - Jul 2023",
+    points: [
+      "I developed a custom website for an exceptional accounting firm, Pinheiro Contabilidade","Using modern technologies such as ReactJS and Styled-Components, integrated with an API specialized in providing updated monthly newsletters about the world of accounting.",
     ],
   },
 ];
@@ -170,25 +182,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Provi Hackathon",
+    name: "Pinheiro Contabilidade",
     description:
-      "Web-based platform that allows users to search for suppliers of materials for the civil construction sector produced with recycled and/or reforested products, providing a solution that helps to conserve the planet.",
+      "Custom website for an accounting firm. One of the notable features of the project is the integration with an API that specializes in providing updated monthly newsletters about the world of accounting. This allows site users to stay informed of the latest industry news, updates and trends.",
     tags: [
       {
-        name: "node.js",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "styled-components",
         color: "green-text-gradient",
       },
       {
-        name: "postgreSQL",
+        name: "axios",
         color: "pink-text-gradient",
       },
     ],
-    image: econexo,
-    source_code_link: "https://github.com/AdelinoJonas/api_econexo",
+    image: pinheiro,
+    source_code_link: "https://pinheirocontabilidadecwb.com.br/",
   },
   {
     name: "My Beauty Pass",
