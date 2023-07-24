@@ -1,0 +1,19 @@
+{
+  "translation":{
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact",
+    "title": "Hi, I'm Jonas",
+    "subTitle": "I develop user Interfaces, web and aplications",
+    "introduction": "INTRODUCTION",
+    "introductionTitle": "Overview",
+    "introductionText": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+    "spec1": "Web Developer",
+    "spec2": "React Native Developer",
+    "spec3": "Backend Developer",
+    "jobs": "WHAT I HAVE DONE SO FAR",
+    "workTitle": "Work Experience.",
+    "firstJob": "Full stack Engineer",
+    "firstcompany": "MY BEAUTY PASS"
+  }
+}

@@ -3,11 +3,23 @@ import {Link} from 'react-router-dom';
 
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close} from '../assets';
+import {logo, menu, close, brasil, usa} from '../assets';
+import { useTranslation } from 'react-i18next';
 
 function Navbar () {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+
+  const { t, i18n:{changeLanguage, language}} = useTranslation();
+
+  const [currentLanguage, setcurrentLanguage] = useState(language);
+
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === 'en' ? 'pt' : 'en'
+    changeLanguage(newLanguage)
+    setcurrentLanguage(newLanguage)
+  }
+
   return (
     <nav 
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -26,19 +38,27 @@ function Navbar () {
             Jonas &nbsp;
             <span className='sm:block hidden'> | Software Developer</span>
           </p>
+          <img src={brasil} alt='logo' className='w-8 h-7 object-contain' onClick={handleChangeLanguage}/>
+          <img src={usa} alt='logo' className='w-9 h-6 ' onClick={handleChangeLanguage}/>
         </Link>
           <ul className="list-none hidden sm:flex flex-row gap-10">
-            {navLinks.map((link) => (
+          
               <li
-                key={link.id}
-                className={`${
-                  active === link.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
-                onClick={() => setActive(link.title)}
+                // className={`${
+                //   active === link.title ? "text-white" : "text-secondary"
+                // } hover:text-white text-[18px] font-medium cursor-pointer`}
+                className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+                // onClick={() => setActive(link.title)}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                <a href={`#about`}>{t('about')}</a>
               </li>
-            ))}
+              <li className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}>
+                <a href={`#work`}>{t('work')}</a>
+              </li>
+              <li className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}>
+                <a href={`#contact`}>{t('contact')}</a>
+              </li>
+            {/* ))} */}
           </ul>
 
           <div 
@@ -58,20 +78,26 @@ function Navbar () {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
-              {navLinks.map((nav) => (
                 <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
-                  }`}
+                  // className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  //   active === nav.title ? "text-white" : "text-secondary"
+                  // }`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(nav.title);
+                    // setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={`#about`}>{t('about')}</a>
                 </li>
-              ))}
+                <li>
+                  <a href={`#work`}>{t('work')}</a>
+
+                </li>
+                <li>
+                  <a href={`#contact`}>{t('contact')}</a>
+
+                </li>
+              {/* ))} */}
             </ul>
           </div>
         </div>

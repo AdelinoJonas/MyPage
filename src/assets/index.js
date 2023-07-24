@@ -32,6 +32,8 @@ import pinheiro from "./company/pinheiroContabil.png";
 import pine from "./company/pineLogo.png";
 import githubContact from "./logos/github.svg";
 import linkedin from "./logos/linkdin.svg";
+import brasil from "./logos/brasil.png";
+import usa from "./logos/usa.png";
 
 export {
   logo,
@@ -64,5 +66,7 @@ export {
   pinheiro,
   pine,
   linkedin,
-  githubContact
+  githubContact,
+  brasil,
+  usa
 };
