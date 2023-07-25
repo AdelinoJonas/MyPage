@@ -1,8 +1,18 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-import HeroMobile from './components/HeroMobile';
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+  StarsCanvas,
+} from "./components";
+import HeroMobile from "./components/HeroMobile";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -24,23 +34,23 @@ function App() {
   }, []);
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar/>
-          {!isMobile ? <Hero /> : <HeroMobile/>}
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          {!isMobile ? <Hero /> : <HeroMobile />}
         </div>
         <About />
         <Experience />
         <Tech />
         <Works />
         {/*<Feedbacks />*/}
-        <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div className="relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Contact />
           {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

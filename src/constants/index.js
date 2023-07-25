@@ -23,7 +23,7 @@ import {
   maisAdv,
   threejs,
   pine,
-  pinheiro
+  pinheiro,
 } from "../assets";
 
 export const navLinks = [
@@ -53,7 +53,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  }
+  },
 ];
 
 const technologies = [
@@ -148,7 +148,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Jul 2023",
     points: [
-      "I developed a custom website for an exceptional accounting firm, Pinheiro Contabilidade","Using modern technologies such as ReactJS and Styled-Components, integrated with an API specialized in providing updated monthly newsletters about the world of accounting.",
+      "I developed a custom website for an exceptional accounting firm, Pinheiro Contabilidade",
+      "Using modern technologies such as ReactJS and Styled-Components, integrated with an API specialized in providing updated monthly newsletters about the world of accounting.",
     ],
   },
 ];

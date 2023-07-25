@@ -68,5 +68,5 @@ export {
   linkedin,
   githubContact,
   brasil,
-  usa
+  usa,
 };
