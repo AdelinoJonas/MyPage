@@ -1,9 +1,23 @@
 import { motion } from "framer-motion";
 
+import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useState } from "react";
 
 function HeroMobile() {
+  const {
+    t,
+    i18n: { changeLanguage, language },
+  } = useTranslation();
+
+  const [currentLanguage, setcurrentLanguage] = useState(language);
+
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === "en" ? "pt" : "en";
+    changeLanguage(newLanguage);
+    setcurrentLanguage(newLanguage);
+  };
   return (
     <section className="relative w-full h-screen xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <div
@@ -16,11 +30,10 @@ function HeroMobile() {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Jonas</span>
+           {t("title")}<span className="text-[#915eff]">Jonas</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces, web and mobile applications
+            {t("subtitle")}
           </p>
         </div>
       </div>

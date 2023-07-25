@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 
+import { useTranslation } from "react-i18next";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
@@ -13,6 +14,7 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 function ExperienceCard({ experience }) {
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -57,14 +59,21 @@ function ExperienceCard({ experience }) {
 }
 
 function Experience() {
+  const {
+    t,
+    i18n: { changeLanguage, language },
+  } = useTranslation();
+
+  const [currentLanguage, setcurrentLanguage] = useState(language);
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          {t("jobs")}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          {t("workTitle")}
         </h2>
       </motion.div>
 

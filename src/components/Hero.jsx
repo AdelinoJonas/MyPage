@@ -1,13 +1,28 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
+import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(false);
 
+  const {
+    t,
+    i18n: { changeLanguage, language },
+  } = useTranslation();
+
+  const [currentLanguage, setcurrentLanguage] = useState(language);
+
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === "en" ? "pt" : "en";
+    changeLanguage(newLanguage);
+    setcurrentLanguage(newLanguage);
+  };
+
   useEffect(() => {
+    
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     setIsMobile(mediaQuery.matches);
@@ -35,11 +50,10 @@ function Hero() {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Jonas</span>
+          {t("title")} <span className="text-[#915eff]">Jonas</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces, web and mobile applications
+          {t("subtitle")}
           </p>
         </div>
       </div>
