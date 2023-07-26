@@ -3,6 +3,8 @@ import { initReactI18next } from "react-i18next";
 
 import enTranslations from "../../locale/en.json";
 import ptTranslations from "../../locale/pt.json";
+// import experiencesData from "../../locale/experiences.json";
+// import experiencesPtData from "../../locale/experiencePt.json";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -13,5 +15,5 @@ i18n.use(initReactI18next).init({
       ...ptTranslations,
     },
   },
-  lng: "en",
+  lng: "pt",
 });

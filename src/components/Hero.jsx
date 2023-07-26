@@ -22,7 +22,6 @@ function Hero() {
   };
 
   useEffect(() => {
-    
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     setIsMobile(mediaQuery.matches);
@@ -50,10 +49,10 @@ function Hero() {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          {t("title")} <span className="text-[#915eff]">Jonas</span>
+            {t("title")} <span className="text-[#915eff]">Jonas</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          {t("subtitle")}
+            {t("subtitle")}
           </p>
         </div>
       </div>

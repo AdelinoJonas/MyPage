@@ -153,6 +153,44 @@ const experiences = [
     ],
   },
 ];
+const experiencesPt = [
+  {
+    title: "Engenheiro FullStack",
+    company_name: "MY BEAUTY PASS",
+    icon: myBeauty,
+    iconBg: "#E6DEDD",
+    date: "Ago 2022 - Dez 2022",
+    points: [
+      "Desenvolvimento de aplicações web e mobile utilizando ReactJS e React Native, juntamente com outras tecnologias relacionadas.",
+      "Colaboração com equipes multifuncionais, incluindo designers e outros desenvolvedores, para criar produtos de alta qualidade.",
+      "Implementação de design responsivo e garantia de compatibilidade entre diferentes navegadores.",
+    ],
+  },
+  {
+    title: "Desenvolvedor React.js",
+    company_name: "CUBOS ACADEMY",
+    icon: cubosAcademy,
+    iconBg: "#383E56",
+    date: "Nov 2022 - Mai 2023",
+    points: [
+      "Desenvolvimento e manutenção de aplicações web utilizando React.js e outras tecnologias relacionadas.",
+      "Colaboração com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
+      "Implementação de design responsivo e garantia de compatibilidade entre diferentes navegadores.",
+      "Participação em revisões de código e fornecimento de feedback construtivo para outros desenvolvedores.",
+    ],
+  },
+  {
+    title: "Freelancer",
+    company_name: "Pinheiro Contabilidade",
+    icon: pine,
+    iconBg: "#E6DEDD",
+    date: "Jun 2023 - Jul 2023",
+    points: [
+      "Desenvolvi um website personalizado para uma contabilidade excepcional, Pinheiro Contabilidade.",
+      "Utilizando tecnologias modernas como ReactJS e Styled-Components, integradas com uma API especializada em fornecer boletins mensais atualizados sobre o mundo da contabilidade.",
+    ],
+  },
+];
 
 const testimonials = [
   {
@@ -247,4 +285,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  experiencesPt,
+  testimonials,
+  projects,
+};

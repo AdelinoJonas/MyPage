@@ -80,10 +80,7 @@ function Navbar() {
           </li>
         </ul>
 
-        <div
-          onBlur={() => setToggle(!toggle)}
-          className="sm:hidden flex flex-1 justify-end items-center gap-5"
-        >
+        <div className="sm:hidden flex flex-1 justify-end items-center gap-5">
           <li className="flex gap-2 items-center">
             <img
               src={brasil}
@@ -103,6 +100,7 @@ function Navbar() {
             alt="menu"
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
+            onBlur={() => setToggle(!toggle)}
           />
 
           <div

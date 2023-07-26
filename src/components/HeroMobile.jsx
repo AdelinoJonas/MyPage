@@ -30,7 +30,8 @@ function HeroMobile() {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-           {t("title")}<span className="text-[#915eff]">Jonas</span>
+            {t("title")}
+            <span className="text-[#915eff]">Jonas</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {t("subtitle")}
