@@ -27,6 +27,10 @@
     "companyName3": "Pinheiro Contabilidade",
     "date3": "Jun 2023 - Jul 2023",
     "points3": "I developed a custom website for an exceptional accounting firm, Pinheiro Contabilidade",
-    "points33": "Using modern technologies such as ReactJS and Styled-Components, integrated with an API specialized in providing updated monthly newsletters about the world of accounting."
+    "points33": "Using modern technologies such as ReactJS and Styled-Components, integrated with an API specialized in providing updated monthly newsletters about the world of accounting.",
+    "projectsPresent": "MY WORK",
+    "projectsTitle": "Projects.",
+    "projectsDescription": "The following projects showcase my skills and experience through examples of my work on real projects. Each project is briefly described with links to code repositories and/or live demos. This reflects my ability to solve complex problems, work with different technologies and manage projects effectively."
+
   }
 }

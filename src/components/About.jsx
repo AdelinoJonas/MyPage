@@ -44,14 +44,6 @@ function About() {
     i18n: { changeLanguage, language },
   } = useTranslation();
 
-  const [currentLanguage, setcurrentLanguage] = useState(language);
-
-  const handleChangeLanguage = () => {
-    const newLanguage = currentLanguage === "en" ? "pt" : "en";
-    changeLanguage(newLanguage);
-    setcurrentLanguage(newLanguage);
-  };
-
   return (
     <>
       <motion.div variants={textVariant()}>
