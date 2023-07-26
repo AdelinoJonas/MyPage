@@ -1,5 +1,5 @@
 {
-  "translation":{
+  "translation": {
     "about": "Sobre",
     "work": "Trabalhos",
     "contact": "Contato",
@@ -12,40 +12,23 @@
     "workTitle": "Experiência.",
     "firstJob": "Engenheiro Full stack",
     "firstcompany": "MY BEAUTY PASS",
-    "experiences": [
-      {
-        "title": "Engenheiro Full stack",
-        "date": "Ago 2022 - Dez 2022",
-        "points": [
-          "Desenvolvimento de aplicações web e mobile utilizando ReactJS e React Native, juntamente com outras tecnologias relacionadas.",
-          "Colaboração com equipes multifuncionais, incluindo designers e outros desenvolvedores, para criar produtos de alta qualidade.",
-          "Implementação de design responsivo e garantia de compatibilidade entre diferentes navegadores."
-        ]
-      },
-      {
-        "title": "Desenvolvedor React.js",
-        "company_name": "CUBOS ACADEMY",
-        "icon": "cubosAcademy",
-        "iconBg": "#383E56",
-        "date": "Nov 2022 - Mai 2023",
-        "points": [
-          "Desenvolvimento e manutenção de aplicações web utilizando React.js e outras tecnologias relacionadas.",
-          "Colaboração com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
-          "Implementação de design responsivo e garantia de compatibilidade entre diferentes navegadores.",
-          "Participação em revisões de código e fornecimento de feedback construtivo para outros desenvolvedores."
-        ]
-      },
-      {
-        "title": "Freelancer",
-        "company_name": "Pinheiro Contabilidade",
-        "icon": "pine",
-        "iconBg": "#E6DEDD",
-        "date": "Jun 2023 - Jul 2023",
-        "points": [
-          "Desenvolvi um website personalizado para uma contabilidade excepcional, Pinheiro Contabilidade.",
-          "Utilizando tecnologias modernas como ReactJS e Styled-Components, integradas com uma API especializada em fornecer boletins mensais atualizados sobre o mundo da contabilidade."
-        ]
-      }
-    ]
+    "titleExperience1": "Engenheiro Full stack",
+    "companyName1": "MY BEAUTY PASS PASSPASS",
+    "date1": "Ago 2022 - Dez 2022",
+    "points1": "Desenvolvimento de aplicações web e mobile utilizando ReactJS e React Native, juntamente com outras tecnologias relacionadas.",
+    "points11": "Colaboração com equipes multifuncionais, incluindo designers e outros desenvolvedores, para criar produtos de alta qualidade.",
+    "points111": "Implementação de design responsivo e garantia de compatibilidade entre diferentes navegadores.",
+    "titleExperience2": "Desenvolvedor React.js",
+    "companyName2": "CUBOS ACADEMY",
+    "date2": "Nov 2022 - Mai 2023",
+    "points2": "Desenvolvimento e manutenção de aplicações web utilizando React.js e outras tecnologias relacionadas.",
+    "points22": "Colaboração com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
+    "points222": "Implementação de design responsivo e garantia de compatibilidade entre diferentes navegadores.",
+    "points2222": "Participação em revisões de código e fornecimento de feedback construtivo para outros desenvolvedores.",
+    "titleExperience3": "Freelancer",
+    "companyName3": "Pinheiro Contabilidade",
+    "date3": "Jun 2023 - Jul 2023",
+    "points3": "Desenvolvi um website personalizado para uma contabilidade excepcional, Pinheiro Contabilidade.",
+    "points33": "Utilizando tecnologias modernas como ReactJS e Styled-Components, integradas com uma API especializada em fornecer boletins mensais atualizados sobre o mundo da contabilidade."
   }
 }
