@@ -39,7 +39,19 @@
     "projectDescription2": "Uma plataforma de cadastro de escritórios para que possam cadastrar seus clientes e seus respectivos públicos, além de assinatura digital, geração de PDF entre outras funcionalidades.",
     "project3": "Pinheiro Contabilidade",
     "projectDescription3": "Site personalizado para escritório de contabilidade. integrado a uma API especializada em fornecer newsletters mensais atualizadas sobre o mundo da contabilidade.",
-    "project5": "Luciana Nutricionista",
-    "projectDescription5": "Site personalizado para divulgação profissional de um consultório de Nutrição. Com diversas informações e interações com o usuário.."
+    "project4": "Luciana Nutricionista",
+    "projectDescription4": "Site personalizado para divulgação profissional de um consultório de Nutrição. Com diversas informações e interações com o usuário.",
+    "contactPresent": "ENTRAR EM CONTATO",
+    "contactTitle": "Contato.",
+    "contactDescription": "Eu adoraria ouvir sobre seu trabalho atual e como eu poderia ajudar. Atualmente estou procurando uma posição e aberto a várias oportunidades. Sou uma pessoa trabalhadora e positiva que sempre fará as coisas com senso de propósito e atenção aos detalhes. Sinta-se à vontade para conferir meus perfis abaixo e entrar em contato usando o formulário.",
+    "labelName": "Seu Nome",
+    "placeholderName": "Qual seu nome?",
+    "labelEmail": "Seu E-mail",
+    "placeholderEmail": "Qual seu e-mail?",
+    "labelMessage": "Sua Menssagem",
+    "placeholderMessage": "O que deseja dizer?",
+    "Button": "Enviar",
+    "feedback":"Obrigado pelo contato. Entrarei em contato o mais breve possível.",
+    "alert": "Ahh, Alguma coisa deu errado. Verifique se preencheu todos os campos e tente novamente, por favor."
   }
 }

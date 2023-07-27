@@ -291,28 +291,27 @@ const projects = [
     image: pinheiro,
     source_code_link: "https://pinheirocontabilidadecwb.com.br/",
   },
-  ,
-  {
-    name: "Luciana Nutricionista",
-    description:
-      "Custom website for an accounting firm. One of the notable features of the project is the integration with an API that specializes in providing updated monthly newsletters about the world of accounting. This allows site users to stay informed of the latest industry news, updates and trends.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "axios",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pinheiro,
-    source_code_link: "https://nutrilucianamachado.com.br/",
-  },
+  // {
+  //   name: "Luciana Nutricionista",
+  //   description:
+  //     "Custom website for an accounting firm. One of the notable features of the project is the integration with an API that specializes in providing updated monthly newsletters about the world of accounting. This allows site users to stay informed of the latest industry news, updates and trends.",
+  //   tags: [
+  //     {
+  //       name: "React.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: pinheiro,
+  //   source_code_link: "https://nutrilucianamachado.com.br/",
+  // },
 ];
 
 export {

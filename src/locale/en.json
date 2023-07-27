@@ -37,7 +37,20 @@
     "projectDescription2": "A platform for registration of offices so that they can register their customers and their respective audiences, in addition to digital signature, generate PDF among other features.",
     "project3": "Pinheiro Contabilidade",
     "projectDescription3": "Custom website for an accounting firm. integrated with an API that specializes in providing updated monthly newsletters about the world of accounting.",
-    "project5": "Luciana Nutricionista",
-    "projectDescription5": "Landing page for professional promotion of a Nutrition office. With various information and interactions with the user."
+    "project4": "Luciana Nutricionista",
+    "projectDescription4": "Landing page for professional promotion of a Nutrition office. With various information and interactions with the user.",
+    "contactPresent": "GET IN TOUCH",
+    "contactTitle": "Contact.",
+    "contactDescription": "I would love to hear about your current job and how I could help. I am currently looking for a position and open to multiple opportunities. I'm a hardworking and positive person who will always do things with a sense of purpose and attention to detail. Feel free to check out my profiles below and get in touch using the form.",
+    "labelName": "Your Name",
+    "placeholderName": "Waht's your Name?",
+    "labelEmail": "Your E-mail",
+    "placeholderEmail": "Waht's your e-mail?",
+    "labelMessage": "Your Message",
+    "placeholderMessage": "Waht do you want to say?",
+    "send": "Send",
+    "loading": "Sending",
+    "feedback":"Thank you. I will get back to you as soon as possible.",
+    "alert": "Ahh, something went wrong. Make sure you fill in all the fields and try again, please."
   }
 }

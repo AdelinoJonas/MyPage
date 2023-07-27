@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { githubContact, linkedin } from "../assets";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub} from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 function Contact() {
@@ -47,7 +49,7 @@ function Contact() {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Ahh, something went wrong. Make sure you fill in all the fields and try again, please.");
 
           setForm({
             name: "",
@@ -70,29 +72,25 @@ function Contact() {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2x1"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <p className={styles.sectionSubText}>{t("contactPresent")}</p>
+        <h3 className={styles.sectionHeadText}>{t("contactTitle")}</h3>
         <span className="text-white font-medium mb-4">
-          I would love to hear about your current job and how I could help. I am
-          currently looking for a position and open to multiple opportunities.
-          I'm a hardworking and positive person who will always do things with a
-          sense of purpose and attention to detail. Feel free to check out my
-          profiles below and get in touch using the form.
+        {t("contactDescription")}
         </span>
-        <div className="flex gap-4 mt-6 justify-center">
+        <div className="flex gap-10 mt-6 justify-center">
           <a
             href="https://www.linkedin.com/in/jonas-adelino-168830179/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="w-16 h-16" src={linkedin} alt="Linkedin" />
+            <BsLinkedin className="w-16 h-16" src={linkedin} alt="Linkedin" />
           </a>
           <a
             href="https://github.com/AdelinoJonas"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <img className="w-16 h-16" src={githubContact} alt="github" />
+            >
+            <BsGithub className="w-16 h-16" src={githubContact} alt="github"/>
           </a>
         </div>
         <form
@@ -101,38 +99,38 @@ function Contact() {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">{t("labelName")}</span>
             <input
               required
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder={t("placeholderName")}
               className="bg-tertiary py-4 px-6 placeholder:text-secundary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your E-mail</span>
+            <span className="text-white font-medium mb-4">{t("labelEmail")}</span>
             <input
               required
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email?"
+              placeholder={t("placeholderEmail")}
               className="bg-tertiary py-4 px-6 placeholder:text-secundary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">{t("labelMessage")}</span>
             <textarea
               required
               rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder={t("placeholderMessage")}
               className="bg-tertiary py-4 px-6 placeholder:text-secundary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
