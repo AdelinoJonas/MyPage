@@ -7,8 +7,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { githubContact, linkedin } from "../assets";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+
+  const { t } = useTranslation();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
