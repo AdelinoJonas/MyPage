@@ -221,7 +221,79 @@ const testimonials = [
 
 const projects = [
   {
+    name: "My Beauty Pass",
+    description:
+      "Corporate benefit focused on beauty. A platform where registered customers can make appointments and discover the location of partner establishments.",
+    tags: [
+      {
+        name: "reactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myBeautyPass,
+    source_code_link: "https://www.mybeautypass.com/ourTeam",
+  },
+  {
+    name: "Mais ADV",
+    description:
+      "A platform for registration of offices so that they can register their customers and their respective audiences, in addition to digital signature, generate PDF among other features.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cypress",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API_integration",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: maisAdv,
+    source_code_link: "https://github.com/AdelinoJonas",
+  },
+  {
     name: "Pinheiro Contabilidade",
+    description:
+      "Custom website for an accounting firm. One of the notable features of the project is the integration with an API that specializes in providing updated monthly newsletters about the world of accounting. This allows site users to stay informed of the latest industry news, updates and trends.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API_integration",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: pinheiro,
+    source_code_link: "https://pinheirocontabilidadecwb.com.br/",
+  },
+  ,
+  {
+    name: "Luciana Nutricionista",
     description:
       "Custom website for an accounting firm. One of the notable features of the project is the integration with an API that specializes in providing updated monthly newsletters about the world of accounting. This allows site users to stay informed of the latest industry news, updates and trends.",
     tags: [
@@ -239,49 +311,7 @@ const projects = [
       },
     ],
     image: pinheiro,
-    source_code_link: "https://pinheirocontabilidadecwb.com.br/",
-  },
-  {
-    name: "My Beauty Pass",
-    description:
-      "Corporate benefit focused on beauty. A platform where registered customers can make appointments and discover the location of partner establishments.",
-    tags: [
-      {
-        name: "reactNative",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mapsAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: myBeautyPass,
-    source_code_link: "https://www.mybeautypass.com/ourTeam",
-  },
-  {
-    name: "Mais ADV",
-    description:
-      "A platform for registration of offices so that they can register their customers and their respective audiences, in addition to digital signature, generate PDF among other features.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "cypress",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: maisAdv,
-    source_code_link: "https://github.com/AdelinoJonas",
+    source_code_link: "https://nutrilucianamachado.com.br/",
   },
 ];
 
