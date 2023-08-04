@@ -29,9 +29,12 @@ import econexo from "./company/econexo.jpg";
 import myBeautyPass from "./company/myBeauty.png";
 import maisAdv from "./company/maisAdv.png";
 import pinheiro from "./company/pinheiroContabil.png";
+import logoLu from "./company/logoLuciana.png";
+import luciana from "./company/luciana.png";
 import pine from "./company/pineLogo.png";
 import githubContact from "./logos/github.svg";
 import linkedin from "./logos/linkdin.svg";
+
 import brasil from "./logos/brasil.png";
 import usa from "./logos/usa.png";
 
@@ -65,6 +68,8 @@ export {
   maisAdv,
   pinheiro,
   pine,
+  luciana,
+  logoLu,
   linkedin,
   githubContact,
   brasil,
